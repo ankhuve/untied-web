@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Untied World",
+  "short_name": "Welcome to an Untied World",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "The homepage for Untied World, built with Qwik City"
+}

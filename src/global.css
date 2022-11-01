@@ -1,0 +1,44 @@
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans text-text;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+::selection {
+  background: #647bb3;
+  color: white;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 4.75rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+h4, p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
