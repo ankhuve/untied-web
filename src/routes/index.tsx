@@ -1,5 +1,5 @@
-import { component$ } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
+import {component$} from "@builder.io/qwik";
+import type {DocumentHead} from "@builder.io/qwik-city";
 import Hero from "~/components/hero/hero";
 import Button from "~/components/common/button/button";
 
@@ -11,7 +11,7 @@ export default component$(() => {
           All wearable <br/> data in one API
         </h1>
         <p className="text-base">
-          Build or enhance your health or fitness service by integrating your customers wearable data. Connect to any wearable device through our single, easy-to-use API.
+          Build or enhance your health or fitness service by integrating your customers wearable devices. Connect to any wearable device through our single, easy-to-use API.
         </p>
         <Button
           text="Get access"
@@ -62,4 +62,8 @@ export default component$(() => {
 // sets the title of the page
 export const head: DocumentHead = {
   title: "One API, all wearable devices - Untied",
+  meta: [{
+    name: 'description',
+    content: "Build or enhance your health or fitness service by integrating your customers wearable devices. Connect to any wearable device through our single, easy-to-use API."
+  }]
 };

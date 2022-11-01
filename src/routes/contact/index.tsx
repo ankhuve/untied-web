@@ -1,5 +1,5 @@
-import { component$ } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
+import {component$} from "@builder.io/qwik";
+import type {DocumentHead} from "@builder.io/qwik-city";
 import Hero from "~/components/hero/hero";
 import Button from "~/components/common/button/button";
 
@@ -62,4 +62,8 @@ export default component$(() => {
 // sets the title of the page
 export const head: DocumentHead = {
   title: "Contact - Untied",
+  meta: [{
+    name: 'description',
+    content: "We are always happy to hear from you. If you have any questions, please don't hesitate to reach out."
+  }]
 };

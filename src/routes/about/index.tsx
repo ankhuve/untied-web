@@ -57,4 +57,8 @@ export default component$(() => {
 // sets the title of the page
 export const head: DocumentHead = {
   title: "About - Untied",
+  meta: [{
+    name: 'description',
+    content: "Here's some information about who we are at Untied World, what we do, and why we do what we do."
+  }]
 };
