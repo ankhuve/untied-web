@@ -1,6 +1,5 @@
 import {component$, Slot, useStylesScoped$} from "@builder.io/qwik";
 import styles from "./hero.css?inline";
-import Button from "~/components/common/button/button";
 
 export default component$(() => {
   useStylesScoped$(styles);

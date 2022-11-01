@@ -1,7 +1,6 @@
-import { component$ } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
+import {component$} from "@builder.io/qwik";
+import type {DocumentHead} from "@builder.io/qwik-city";
 import Hero from "~/components/hero/hero";
-import Button from "~/components/common/button/button";
 
 export default component$(() => {
   return (
