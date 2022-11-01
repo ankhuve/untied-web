@@ -7,8 +7,9 @@ module.exports = {
         text: {
           light: "#F7FFF5",
           medium: "#ACACAC",
-          dark: "#292f29",
-          DEFAULT: "#525252",
+          dark: "#525252",
+          darker: "#292f29",
+          DEFAULT: "#F7FFF5",
         },
         primary: {
           50: "#EDFBE8",
@@ -33,10 +34,10 @@ module.exports = {
         },
       },
       backgroundImage: {
-        "hero-illustration-desktop":
-          "url('/assets/images/hero-illustration-desktop.svg')",
-        "hero-illustration-mobile":
-          "url('/assets/images/hero-illustration-mobile.svg')",
+        "hero-illustration-desktop": "url('/assets/images/hero.svg')",
+        "hero-illustration-mobile": "url('/assets/images/hero-mobile.svg')",
+        "hero-gradient":
+          "linear-gradient(135.33deg, #030503 26.49%, #126203 76.79%)",
       },
       backgroundSize: {
         auto: "auto",
@@ -46,15 +47,22 @@ module.exports = {
       },
       fontSize: {
         sm: ["14px", "20px"],
-        base: ["20px", "32px"],
-        lg: ["28px", "40px"],
-        "heading-1": ["64px", "72px"],
-        "heading-2": ["48px", "64px"],
-        "heading-3": ["28px", "32px"],
+        base: ["18px", "32px"],
+        lg: ["22px", "40px"],
+        "heading-1": ["64px", { fontSize: "76px", fontWeight: "bold" }],
+        "heading-2": ["48px", { fontSize: "64px", fontWeight: "bold" }],
+        "heading-3": ["28px", { fontSize: "32px", fontWeight: "bold" }],
       },
       height: {
         800: "800px",
         1000: "1000px",
+      },
+      boxShadow: {
+        glow: "0px 0px 128px 16px rgba(255, 255, 255, 0.28)",
+        "glow-green": "0px 0px 128px 16px #70C16F33",
+      },
+      borderRadius: {
+        phone: "16px",
       },
     },
   },

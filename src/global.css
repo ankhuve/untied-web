@@ -15,6 +15,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
   line-height: 20px;
+  background: linear-gradient(180deg, #002700 16.54%, #001100 57.2%, #002700 92.93%);
 }
 
 ::selection {
@@ -23,22 +24,51 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
-  line-height: 4.75rem;
+  font-size: 3rem;
+  line-height: 3.75rem;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 3rem;
-  line-height: 4rem;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  font-weight: bold;
 }
 
 h3 {
-  font-size: 2rem;
-  line-height: 2.4rem;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: bold;
 }
 
 h4, p {
-  font-size: 1.2rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+@screen md {
+  h1 {
+    font-size: 4rem;
+    line-height: 4.75rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  h4, p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+}
+
+.textbox-gradient {
+  @apply p-8 rounded-lg shadow-glow-green;
+  background: linear-gradient(251.95deg, #0C4E0F -23.74%, rgba(0, 110, 4, 0) 104.59%);;
 }
