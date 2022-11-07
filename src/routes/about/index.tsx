@@ -52,9 +52,11 @@ export default component$(() => {
           </Text>
           <div className="grid lg:grid-cols-3 gap-8 lg:gap-16 mt-8 lg:mt-16">
             <div className="text-center">
-              <image
+              <img
                 src="/assets/images/daniel.png"
-                alt="Step 1"
+                alt="Daniel"
+                width={128}
+                height={128}
                 class="rounded-4xl h-32 w-32 mx-auto mb-4"
               />
               <Text type={"heading-3"} tag={"h3"}>
@@ -63,9 +65,11 @@ export default component$(() => {
               <Text>Business person</Text>
             </div>
             <div className="text-center">
-              <image
+              <img
                 src="/assets/images/erik.png"
-                alt="Step 1"
+                alt="Erik"
+                width={128}
+                height={128}
                 class="rounded-4xl h-32 w-32 mx-auto mb-4"
               />
               <Text type={"heading-3"} tag={"h3"}>
@@ -74,9 +78,11 @@ export default component$(() => {
               <Text>Tech person</Text>
             </div>
             <div className="text-center">
-              <image
+              <img
                 src="/assets/images/wille.png"
-                alt="Step 1"
+                alt="Wilhelm"
+                width={128}
+                height={128}
                 class="rounded-4xl h-32 w-32 mx-auto mb-4"
               />
               <Text type={"heading-3"} tag={"h3"}>
@@ -85,9 +91,11 @@ export default component$(() => {
               <Text>Business person</Text>
             </div>
             <div className="text-center lg:col-span-3">
-              <image
+              <img
                 src="/assets/images/you.png"
-                alt="Step 1"
+                alt="An anonymous avatar"
+                width={128}
+                height={128}
                 class="rounded-4xl h-32 w-32 mx-auto mb-4"
               />
               <Text type={"heading-3"} tag={"h3"}>
