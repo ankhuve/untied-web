@@ -2,7 +2,7 @@ import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import { UntiedLogo } from "~/components/common/Icons/Logo";
 import { Link } from "@builder.io/qwik-city";
 import styles from "./Footer.css?inline";
-import Github from "~/components/common/Icons/Github";
+import GithubIcon from "~/components/common/Icons/Github";
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -31,7 +31,13 @@ export default component$(() => {
               Find us
             </li>
             <li className="flex justify-end md:justify-start">
-              <Github />
+              <Link
+                href="https://github.com/untiedworld"
+                target="_blank"
+                aria-label={"Github"}
+              >
+                <GithubIcon />
+              </Link>
             </li>
           </ul>
           <ul className="flex flex-col text-right md:text-left space-y-2 md:space-y-4">

@@ -39,6 +39,7 @@ export default component$(() => {
             href="https://github.com/untiedworld"
             target="_blank"
             className="px-4"
+            aria-label={"Github"}
           >
             <GithubIcon />
           </Link>

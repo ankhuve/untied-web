@@ -48,6 +48,7 @@ export const HowItWorks = () => {
             src="/assets/images/step-1.svg"
             alt="Step 1"
             width="160"
+            height="346"
             className="shadow-glow-green rounded-phone"
           />
         </div>
@@ -80,6 +81,7 @@ export const HowItWorks = () => {
               src="/assets/images/step-2-1.svg"
               alt="Step 2.1: Authenticate with your wearable device provider"
               width="160"
+              height="330"
               className="shadow-glow-green rounded-phone"
             />
           </div>
@@ -88,6 +90,7 @@ export const HowItWorks = () => {
               src="/assets/images/step-2-2.svg"
               alt="Step 2.2: Allow the requested permissions"
               width="160"
+              height="330"
               className="shadow-glow-green rounded-phone"
             />
           </div>
@@ -99,6 +102,7 @@ export const HowItWorks = () => {
             src="/assets/images/step-3.svg"
             alt="Step 3: Receive the data"
             width="160"
+            height="346"
             className="shadow-glow-green rounded-phone"
           />
         </div>
@@ -156,7 +160,9 @@ export const Features = () => {
         <div className="w-full lg:w-1/2 mb-8 md:mb-0 justify-center flex">
           <img
             src="/assets/images/one-api.svg"
-            alt="Illustration of different wearable providers being connected to your applications through a single API."
+            alt="Illustration of various wearable providers being connected to your applications through a single API."
+            width="656"
+            height="512"
           />
         </div>
       </div>
@@ -200,6 +206,8 @@ export const WhyUntied = () => {
             className="right-6 relative"
             src="/assets/images/funnel.svg"
             alt="Illustration of different wearable providers being connected to your applications through a single API."
+            width="656"
+            height="946"
           />
         </div>
       </div>
