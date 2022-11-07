@@ -3,25 +3,27 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import Hero from "~/components/Hero/Hero";
 import Button from "~/components/common/Button/Button";
 import { CallToAction } from "~/components/CallToAction/CallToAction";
+import Text from "~/components/common/Text/Text";
 
 export default component$(() => {
   return (
     <>
       <Hero>
         <div className="hero-illustration">
-          <div className="flex flex-col md:w-1/2 2xl:left-56 relative justify-center px-8 sm:px-16 space-y-4 md:space-y-8 md:mt-16 md:h-full">
-            <h1>
+          <div className="flex flex-col md:w-1/2 2xl:left-56 relative justify-center px-8 sm:px-16 md:mt-16 md:h-full max-w-4xl">
+            <Text tag={"h1"} type={"heading-1"}>
               All wearable <br /> data in one API
-            </h1>
-            <p className="text-base">
+            </Text>
+            <Text>
               Build or enhance your health or fitness service by integrating
               your customers wearable devices. Connect to any wearable device
-              through our single, easy-to-use API.
-            </p>
+              through our single, open-source, easy-to-use API.
+            </Text>
             <Button
               glow
               text="Get access"
               href="https://dtyl3ii63lk.typeform.com/to/SFVX49Iz"
+              className="mt-8"
             />
           </div>
         </div>
@@ -45,7 +47,7 @@ export const HowItWorks = () => {
           <img
             src="/assets/images/step-1.svg"
             alt="Step 1"
-            width="135px"
+            width="160"
             className="shadow-glow-green rounded-phone"
           />
         </div>
@@ -77,7 +79,7 @@ export const HowItWorks = () => {
             <img
               src="/assets/images/step-2-1.svg"
               alt="Step 2.1: Authenticate with your wearable device provider"
-              width="135px"
+              width="160"
               className="shadow-glow-green rounded-phone"
             />
           </div>
@@ -85,7 +87,7 @@ export const HowItWorks = () => {
             <img
               src="/assets/images/step-2-2.svg"
               alt="Step 2.2: Allow the requested permissions"
-              width="135px"
+              width="160"
               className="shadow-glow-green rounded-phone"
             />
           </div>
@@ -96,7 +98,7 @@ export const HowItWorks = () => {
           <img
             src="/assets/images/step-3.svg"
             alt="Step 3: Receive the data"
-            width="135px"
+            width="160"
             className="shadow-glow-green rounded-phone"
           />
         </div>
@@ -170,23 +172,27 @@ export const WhyUntied = () => {
         <div className="flex flex-col lg:w-1/2 space-y-12">
           <div className="textbox-gradient">
             <h3 className="mb-3">It’s open source software</h3>
-            <p>
+            <Text>
               Whether you want to host Untied by yourself, or want us to just
               solve it for you - there’s a solution for you. Untied is open
               source software (OSS), which means that you can read all of our
               source code. Hosting it on the server of your choice is easy,
               you’re even free to modify the source code to fit your specific
               needs.
-            </p>
+            </Text>
           </div>
           <div className="textbox-gradient">
             <h3 className="mb-3">Privacy centered architecture</h3>
-            <p>
-              We believe that your data is yours, and that you should be in
-              control of it. That’s why we’ve built Untied with privacy in mind.
-              We only store the data that is necessary to make Untied work, and
-              we don’t share it with anyone.
-            </p>
+            <Text>
+              We have designed Untied from the ground up, with privacy and data
+              security at the center of every architectural decision. We only
+              store the data that is necessary to make Untied work, and we don’t
+              share it with anyone.
+            </Text>
+            <Text>
+              Since our software is open source, you can read all of our source
+              code and verify that we’re not doing anything shady.
+            </Text>
           </div>
         </div>
         <div className="w-full lg:w-1/2 mb-8 md:mb-0 justify-center flex">

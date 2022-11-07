@@ -35,7 +35,7 @@ export default component$(() => {
           <Text type={"lg"}>
             We’re on a mission to make health and fitness personal and tailored
             to every individual person. A key step in getting there is
-            simplifying access to wearable health data.{" "}
+            simplifying access to wearable health data.
           </Text>
           <Text type={"lg"}>
             Whether your app is on the web, mobile or even on a smart TV,
