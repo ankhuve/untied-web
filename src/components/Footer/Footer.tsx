@@ -16,7 +16,7 @@ export default component$(() => {
               <div className="mr-4">
                 <UntiedLogo />
               </div>
-              <h1 className="text-2xl">Untied</h1>
+              <h1 className="text-2xl m-0">Untied</h1>
             </div>
           </Link>
           <span className="text-sm text-gray-50">Org. no 559400-2304</span>
@@ -65,6 +65,9 @@ export default component$(() => {
               >
                 Careers
               </Link>
+            </li>
+            <li>
+              <Link href="/privacy">Privacy</Link>
             </li>
           </ul>
         </div>

@@ -57,8 +57,8 @@ export const HowItWorks = () => {
           <div className="space-y-3">
             <h3>Select your wearable device</h3>
             <p>
-              In your application, you display the Untied Widget to your user,
-              so they can select their wearable device.
+              In your application, simply display the Untied Widget to your
+              user, allowing them to select their wearable device.
             </p>
           </div>
         </div>
@@ -70,8 +70,8 @@ export const HowItWorks = () => {
             <h3>Authenticate with permissions</h3>
             <p>
               The user gets redirected to the wearable’s authentication page,
-              where they enter their credentials and give access to the
-              requested scopes.
+              where they enter their credentials and give access access to their
+              wearable data.
             </p>
           </div>
         </div>
@@ -178,26 +178,30 @@ export const WhyUntied = () => {
         <div className="flex flex-col lg:w-1/2 space-y-12">
           <div className="textbox-gradient">
             <h3 className="mb-3">It’s open source software</h3>
-            <Text>
+            <Text type={"base"}>
               Whether you want to host Untied by yourself, or want us to just
-              solve it for you - there’s a solution for you. Untied is open
-              source software (OSS), which means that you can read all of our
-              source code. Hosting it on the server of your choice is easy,
-              you’re even free to modify the source code to fit your specific
-              needs.
+              solve it for you - there’s a solution for you.
+            </Text>
+            <Text noMargin>
+              Untied is open source software (OSS), which means our source code
+              is public and open for anyone to contribute to. Hosting it on the
+              server of your choice is easy, you’re even free to modify the
+              source code to fit your specific needs.
             </Text>
           </div>
           <div className="textbox-gradient">
             <h3 className="mb-3">Privacy centered architecture</h3>
-            <Text>
-              We have designed Untied from the ground up, with privacy and data
+            <Text type={"base"}>
+              We have designed Untied from the ground up with privacy and data
               security at the center of every architectural decision. We only
               store the data that is necessary to make Untied work, and we don’t
               share it with anyone.
             </Text>
-            <Text>
+            <Text noMargin>
               Since our software is open source, you can read all of our source
-              code and verify that we’re not doing anything shady.
+              code and verify that we’re not doing anything shady. Our community
+              is also free to contribute to the source code, and we welcome
+              everyone to do so.
             </Text>
           </div>
         </div>
