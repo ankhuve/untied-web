@@ -69,6 +69,9 @@ export default component$(() => {
             <li>
               <Link href="/privacy">Privacy</Link>
             </li>
+            <li>
+              <Link href="/terms">Terms and Conditions</Link>
+            </li>
           </ul>
         </div>
       </div>
