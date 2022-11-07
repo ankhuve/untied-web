@@ -2,6 +2,7 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Hero from "~/components/Hero/Hero";
 import Button from "~/components/common/Button/Button";
+import { CallToAction } from "~/components/CallToAction/CallToAction";
 
 export default component$(() => {
   return (
@@ -29,7 +30,7 @@ export default component$(() => {
         <HowItWorks />
         <Features />
         <WhyUntied />
-        <CTA />
+        <CallToAction />
       </div>
     </>
   );
@@ -196,17 +197,6 @@ export const WhyUntied = () => {
           />
         </div>
       </div>
-    </section>
-  );
-};
-
-export const CTA = () => {
-  return (
-    <section className="my-12 lg:my-24 flex flex-col mb-24 items-center">
-      <h2 className="text-center mb-12 lg:mb-18">
-        Build your health or <br /> fitness app with Untied.
-      </h2>
-      <Button text={"Get started"} glow/>
     </section>
   );
 };
