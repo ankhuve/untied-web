@@ -7,7 +7,11 @@ export const CallToAction = component$(() => {
       <h2 className="text-center mb-12 lg:mb-18">
         Build your health or <br /> fitness app with Untied.
       </h2>
-      <Button text={"Get started"} glow />
+      <Button
+        text={"Get started"}
+        glow
+        href={"https://dtyl3ii63lk.typeform.com/to/SFVX49Iz"}
+      />
     </section>
   );
 });
