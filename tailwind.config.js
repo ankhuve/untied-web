@@ -61,9 +61,6 @@ module.exports = {
         glow: "0px 0px 128px 16px rgba(255, 255, 255, 0.28)",
         "glow-green": "0px 0px 128px 16px #70C16F33",
       },
-      borderRadius: {
-        phone: "16px",
-      },
     },
   },
   variants: {

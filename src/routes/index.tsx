@@ -28,7 +28,7 @@ export default component$(() => {
           </div>
         </div>
       </Hero>
-      <div className="container mx-auto px-8 sm:px-16">
+      <div className="container mx-auto px-4 lg:px-16">
         <HowItWorks />
         <Features />
         <WhyUntied />
@@ -42,17 +42,17 @@ export const HowItWorks = () => {
   return (
     <section className="my-12 lg:my-24 flex flex-col">
       <h2 className="text-center mb-12 lg:mb-24">How it works</h2>
-      <div className="flex justify-center space-x-8 lg:space-x-24 mb-32">
+      <div className="flex justify-center gap-4 lg:gap-24 mb-32">
         <div className="justify-center flex flex-col">
           <img
             src="/assets/images/step-1.svg"
             alt="Step 1"
             width="160"
             height="346"
-            className="shadow-glow-green rounded-phone"
+            className="shadow-glow-green rounded-2xl"
           />
         </div>
-        <div className="flex space-x-4 md:space-x-16 items-center w-1/2 flex-col md:flex-row">
+        <div className="flex gap-4 md:gap-16 items-center justify-center w-1/2 flex-col md:flex-row">
           <h3 class="text-heading-2 md:text-heading-1 mb-8 md:mb-0">1.</h3>
           <div className="space-y-3">
             <h3>Select your wearable device</h3>
@@ -64,7 +64,7 @@ export const HowItWorks = () => {
         </div>
       </div>
       <div className="flex justify-center space-x-8 lg:space-x-24 mb-32">
-        <div className="flex space-x-4 md:space-x-16 items-center w-1/2 flex-col md:flex-row">
+        <div className="flex gap-4 md:gap-16 items-center justify-center w-1/2 flex-col md:flex-row">
           <h3 className="text-heading-2 md:text-heading-1 mb-8 md:mb-0">2.</h3>
           <div className="space-y-3">
             <h3>Authenticate with permissions</h3>
@@ -75,14 +75,14 @@ export const HowItWorks = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row space-x-2 md:space-x-16">
+        <div className="flex flex-col md:flex-row gap-2 md:gap-16">
           <div className="justify-center flex flex-col">
             <img
               src="/assets/images/step-2-1.svg"
               alt="Step 2.1: Authenticate with your wearable device provider"
               width="160"
               height="330"
-              className="shadow-glow-green rounded-phone"
+              className="shadow-glow-green rounded-2xl"
             />
           </div>
           <div className="justify-center flex flex-col">
@@ -91,22 +91,22 @@ export const HowItWorks = () => {
               alt="Step 2.2: Allow the requested permissions"
               width="160"
               height="330"
-              className="shadow-glow-green rounded-phone"
+              className="shadow-glow-green rounded-2xl"
             />
           </div>
         </div>
       </div>
-      <div className="flex justify-center space-x-8 lg:space-x-24 mb-32">
+      <div className="flex justify-center gap-4 lg:gap-24 mb-32">
         <div className="justify-center flex flex-col">
           <img
             src="/assets/images/step-3.svg"
             alt="Step 3: Receive the data"
             width="160"
             height="346"
-            className="shadow-glow-green rounded-phone"
+            className="shadow-glow-green rounded-2xl"
           />
         </div>
-        <div className="flex space-x-4 md:space-x-16 items-center w-1/2 flex-col md:flex-row">
+        <div className="flex gap-4 md:gap-16 items-center justify-center w-1/2 flex-col md:flex-row">
           <h3 className="text-heading-2 md:text-heading-1 mb-8 md:mb-0">3.</h3>
           <div className="space-y-3">
             <h3>You’re in!</h3>

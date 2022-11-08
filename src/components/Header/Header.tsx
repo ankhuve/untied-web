@@ -14,20 +14,20 @@ export default component$(() => {
         <div class="mr-4">
           <UntiedLogo />
         </div>
-        <h1 className="text-2xl">Untied</h1>
+        <h1 className="text-2xl m-0">Untied</h1>
       </Link>
-      <ul class="flex items-center text-right space-x-2 lg:space-x-4">
+      <ul class="flex items-center text-right gap-2 lg:gap-4">
         <li class="select-none opacity-50 hidden sm:block">
           Docs (coming soon)
         </li>
         <li>
-          <Link href="/about" className="p-4">
+          <Link href="/about" className="p-2 md:p-4">
             About
           </Link>
         </li>
         <li>
           <Link
-            className="p-4"
+            className="p-2 md:p-4"
             href="https://dtyl3ii63lk.typeform.com/to/SFVX49Iz"
             target="_blank"
           >

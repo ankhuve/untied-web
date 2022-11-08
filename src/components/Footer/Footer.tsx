@@ -9,7 +9,7 @@ export default component$(() => {
 
   return (
     <footer>
-      <div className="container mx-auto flex h-full justify-between">
+      <div className="container flex flex-col items-center gap-8 md:flex-row mx-auto flex h-full justify-between">
         <div className="flex flex-col justify-center">
           <Link href="/">
             <div className="flex items-center mb-4">
@@ -25,9 +25,9 @@ export default component$(() => {
           </Link>
         </div>
 
-        <div className="flex space-x-12">
+        <div className="flex w-full justify-evenly md:justify-end gap-8 md:gap-12">
           <ul className="flex flex-col text-right md:text-left space-y-2 md:space-y-4">
-            <li className="flex justify-end md:justify-start text-primary-500">
+            <li className="flex justify-end md:justify-start text-primary-500 whitespace-nowrap">
               Find us
             </li>
             <li className="flex justify-end md:justify-start">
@@ -41,12 +41,8 @@ export default component$(() => {
             </li>
           </ul>
           <ul className="flex flex-col text-right md:text-left space-y-2 md:space-y-4">
-            <li className="flex justify-end md:justify-start text-primary-500">
-              Company
-            </li>
-            <li className="select-none opacity-50 hidden sm:block">
-              Docs (coming soon)
-            </li>
+            <li className="text-primary-500">Company</li>
+            <li className="select-none opacity-50">Docs (coming soon)</li>
             <li>
               <Link href="/about">About</Link>
             </li>
