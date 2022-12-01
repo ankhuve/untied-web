@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "include": [
+    "/*"
+  ],
+  "exclude": [
+    "/assets/*",
+    "/build/*",
+    "/favicon.svg",
+    "/manifest.json",
+    "/q-manifest.json",
+    "/robots.txt",
+    "/service-worker.js",
+    "/sitemap.xml",
+    "/",
+    "/about",
+    "/terms",
+    "/privacy"
+  ]
+}
