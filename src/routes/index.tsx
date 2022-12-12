@@ -22,7 +22,7 @@ export default component$(() => {
             <Button
               glow
               text="Get access"
-              href="https://dtyl3ii63lk.typeform.com/to/SFVX49Iz"
+              href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
               className="mt-8"
             />
           </div>

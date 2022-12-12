@@ -502,7 +502,7 @@ export default component$(() => {
         <li>
           <Text noMargin>
             By filling out this contact form:{" "}
-            <Link href="https://dtyl3ii63lk.typeform.com/to/SFVX49Iz">
+            <Link href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS">
               Contact Us
             </Link>
           </Text>
