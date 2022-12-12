@@ -10,7 +10,7 @@ export default component$(() => {
   return (
     <footer>
       <div className="container flex flex-col items-center gap-8 md:flex-row mx-auto flex h-full justify-between">
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center whitespace-nowrap">
           <Link href="/">
             <div className="flex items-center mb-4">
               <div className="mr-4">
@@ -48,7 +48,7 @@ export default component$(() => {
             </li>
             <li>
               <Link
-                href="https://dtyl3ii63lk.typeform.com/to/SFVX49Iz"
+                href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
                 target="_blank"
               >
                 Contact
@@ -56,7 +56,7 @@ export default component$(() => {
             </li>
             <li>
               <Link
-                href="https://dtyl3ii63lk.typeform.com/to/SFVX49Iz"
+                href="https://dtyl3ii63lk.typeform.com/to/WQkcPqZx"
                 target="_blank"
               >
                 Careers

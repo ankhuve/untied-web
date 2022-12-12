@@ -19,7 +19,7 @@ export default component$<ButtonProps>(
       <div className={classNames}>
         {href ? (
           <a
-            href="https://dtyl3ii63lk.typeform.com/to/SFVX49Iz"
+            href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
             target="_blank"
             className={`button primary whitespace-nowrap ${
               glow && "shadow-glow"

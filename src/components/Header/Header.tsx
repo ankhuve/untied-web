@@ -28,7 +28,7 @@ export default component$(() => {
         <li>
           <Link
             className="p-2 md:p-4"
-            href="https://dtyl3ii63lk.typeform.com/to/SFVX49Iz"
+            href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
             target="_blank"
           >
             Contact
@@ -47,7 +47,7 @@ export default component$(() => {
         <li class="pl-4 hidden sm:block">
           <Button
             text="Get access"
-            href="https://dtyl3ii63lk.typeform.com/to/SFVX49Iz"
+            href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
           />
         </li>
       </ul>

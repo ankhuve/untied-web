@@ -102,7 +102,7 @@ export default component$(() => {
                 Maybe you?
               </Text>
               <Link
-                href="https://dtyl3ii63lk.typeform.com/to/SFVX49Iz"
+                href="https://dtyl3ii63lk.typeform.com/to/WQkcPqZx"
                 target={"_blank"}
               >
                 <Text underline>Let's get in touch!</Text>
