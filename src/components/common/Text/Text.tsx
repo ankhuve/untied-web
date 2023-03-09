@@ -6,11 +6,12 @@ interface TextProps {
   center?: boolean;
   noMargin?: boolean;
   underline?: boolean;
+  className?: string;
 }
 export default component$<TextProps>(
-  ({ type, tag = "p", center, noMargin, underline }) => {
+  ({ type, tag = "p", center, noMargin, underline, className = "" }) => {
     const Tag = tag;
-    const classNames = ``
+    const classNames = className
       .concat(type ? ` text-${type}` : "")
       .concat(center ? " text-center" : "")
       .concat(underline ? " underline" : "");

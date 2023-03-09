@@ -21,7 +21,7 @@ export default component$(() => {
           </Link>
           <span class="text-sm text-gray-50">Org. no 559400-2304</span>
           <Link href="/">
-            <span class="text-sm text-gray-50">© 2022 Untied World AB</span>
+            <span class="text-sm text-gray-50">© 2023 Untied World AB</span>
           </Link>
         </div>
 
@@ -42,7 +42,15 @@ export default component$(() => {
           </ul>
           <ul class="flex flex-col text-right md:text-left space-y-2 md:space-y-4">
             <li class="text-primary-500">Company</li>
-            <li class="select-none opacity-50">Docs (coming soon)</li>
+            <li>
+              <Link
+                href="https://docs.untied.world"
+                target="_blank"
+                aria-label={"Developer documentation"}
+              >
+                Docs
+              </Link>
+            </li>
             <li>
               <Link href="/about">About</Link>
             </li>

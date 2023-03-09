@@ -17,8 +17,14 @@ export default component$(() => {
         <h1 class="text-2xl m-0">Untied</h1>
       </Link>
       <ul class="flex items-center text-right gap-2 lg:gap-4">
-        <li class="select-none opacity-50 hidden sm:block">
-          Docs (coming soon)
+        <li>
+          <Link
+            href="https://docs.untied.world"
+            target="_blank"
+            aria-label={"Developer documentation"}
+          >
+            Docs
+          </Link>
         </li>
         <li>
           <Link href="/about" class="p-2 md:p-4">

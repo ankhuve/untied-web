@@ -1,5 +1,5 @@
 .hero {
-    @apply flex flex-col h-1000 md:h-800 bg-no-repeat bg-hero-gradient pt-24 md:pt-0;
+    @apply flex flex-col md:h-800 bg-no-repeat bg-hero-gradient pt-32 md:pt-0 py-16 md:py-0;
 }
 
 .hero-illustration {

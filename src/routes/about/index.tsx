@@ -28,24 +28,6 @@ export default component$(() => {
         </div>
       </Hero>
       <div class="flex flex-col items-center px-8 mx-auto space-y-12 lg:space-y-24 my-12 lg:my-24">
-        <section class="max-w-3xl mx-auto">
-          <Text type={"heading-1"} tag={"h2"} center>
-            Mission
-          </Text>
-          <Text type={"lg"}>
-            We’re on a mission to make health and fitness personal and tailored
-            to every individual person. A key step in getting there is
-            simplifying access to wearable health data.
-          </Text>
-          <Text type={"lg"}>
-            Whether your app is on the web, mobile or even on a smart TV,
-            developers should be able to build and enhance their health and
-            fitness applications with real data gathered by wearable devices in
-            a consistent, reliable and cost-effective manner.
-          </Text>
-          <Text type={"lg"}>Together, let’s build the future of health!</Text>
-        </section>
-
         <section class="container">
           <Text type={"heading-1"} tag={"h2"} center>
             Meet the team
