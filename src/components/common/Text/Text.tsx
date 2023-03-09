@@ -10,13 +10,13 @@ interface TextProps {
 export default component$<TextProps>(
   ({ type, tag = "p", center, noMargin, underline }) => {
     const Tag = tag;
-    const className = ``
+    const classNames = ``
       .concat(type ? ` text-${type}` : "")
       .concat(center ? " text-center" : "")
       .concat(underline ? " underline" : "");
 
     return (
-      <Tag class={className} style={noMargin ? "margin: 0" : ""}>
+      <Tag class={classNames} style={noMargin ? "margin: 0" : ""}>
         <Slot />
       </Tag>
     );

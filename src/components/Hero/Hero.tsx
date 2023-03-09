@@ -5,7 +5,7 @@ export default component$(() => {
   useStyles$(styles);
 
   return (
-    <div className="hero">
+    <div class="hero">
       <Slot />
     </div>
   );

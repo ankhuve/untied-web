@@ -16,22 +16,18 @@ export default component$<ButtonProps>(
     );
 
     return (
-      <div className={classNames}>
+      <div class={classNames}>
         {href ? (
           <a
             href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
             target="_blank"
-            className={`button primary whitespace-nowrap ${
-              glow && "shadow-glow"
-            }`}
+            class={`button primary whitespace-nowrap ${glow && "shadow-glow"}`}
           >
             {text}
           </a>
         ) : (
           <button
-            className={`button primary whitespace-nowrap ${
-              glow && "shadow-glow"
-            }`}
+            class={`button primary whitespace-nowrap ${glow && "shadow-glow"}`}
           >
             {text}
           </button>

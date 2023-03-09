@@ -9,7 +9,7 @@ export default component$(() => {
   return (
     <>
       <Hero>
-        <div className="flex flex-col justify-center max-w-3xl px-8 mx-auto space-y-4 md:space-y-8 md:h-full container">
+        <div class="flex flex-col justify-center max-w-3xl px-8 mx-auto space-y-4 md:space-y-8 md:h-full container">
           <h1>Untied wha..?</h1>
           <Text>
             Untied is an open source platform to easily get health and fitness
@@ -27,7 +27,7 @@ export default component$(() => {
           </Text>
         </div>
       </Hero>
-      <div className="flex flex-col items-center px-8 mx-auto space-y-12 lg:space-y-24 my-12 lg:my-24">
+      <div class="flex flex-col items-center px-8 mx-auto space-y-12 lg:space-y-24 my-12 lg:my-24">
         <section class="max-w-3xl mx-auto">
           <Text type={"heading-1"} tag={"h2"} center>
             Mission
@@ -46,12 +46,12 @@ export default component$(() => {
           <Text type={"lg"}>Together, let’s build the future of health!</Text>
         </section>
 
-        <section className="container">
+        <section class="container">
           <Text type={"heading-1"} tag={"h2"} center>
             Meet the team
           </Text>
-          <div className="grid lg:grid-cols-3 gap-8 lg:gap-16 mt-8 lg:mt-16">
-            <div className="text-center">
+          <div class="grid lg:grid-cols-3 gap-8 lg:gap-16 mt-8 lg:mt-16">
+            <div class="text-center">
               <img
                 src="/assets/images/daniel.png"
                 alt="Daniel"
@@ -64,7 +64,7 @@ export default component$(() => {
               </Text>
               <Text>Business person</Text>
             </div>
-            <div className="text-center">
+            <div class="text-center">
               <img
                 src="/assets/images/erik.png"
                 alt="Erik"
@@ -77,7 +77,7 @@ export default component$(() => {
               </Text>
               <Text>Tech person</Text>
             </div>
-            <div className="text-center">
+            <div class="text-center">
               <img
                 src="/assets/images/wille.png"
                 alt="Wilhelm"
@@ -90,7 +90,7 @@ export default component$(() => {
               </Text>
               <Text>Business person</Text>
             </div>
-            <div className="text-center lg:col-span-3">
+            <div class="text-center lg:col-span-3">
               <img
                 src="/assets/images/you.png"
                 alt="An anonymous avatar"

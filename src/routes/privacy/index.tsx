@@ -1,10 +1,10 @@
 import { component$ } from "@builder.io/qwik";
 import Text from "~/components/common/Text/Text";
-import { Link } from "@builder.io/qwik-city";
+import { DocumentHead, Link } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
-    <section className="container mx-auto px-8 pt-24 lg:pt-32">
+    <section class="container mx-auto px-8 pt-24 lg:pt-32">
       <Text tag="h1">Privacy Policy</Text>
       <Text>Last updated: November 7, 2022</Text>
       <Text>
@@ -26,7 +26,7 @@ export default component$(() => {
       <Text tag="h3">Definitions</Text>
       <Text>
         For the purposes of this Privacy Policy:
-        <ul className="list-disc mb-8">
+        <ul class="list-disc mb-8">
           <li>
             <Text noMargin>
               <strong>Account</strong> means a unique account created for You to
@@ -120,7 +120,7 @@ export default component$(() => {
         personally identifiable information that can be used to contact or
         identify You. Personally identifiable information may include, but is
         not limited to:
-        <ul className="list-disc mb-8">
+        <ul class="list-disc mb-8">
           <li>
             <Text noMargin>Email address</Text>
           </li>
@@ -175,7 +175,7 @@ export default component$(() => {
         are beacons, tags, and scripts to collect and track information and to
         improve and analyze Our Service. The technologies We use may include:
       </Text>
-      <ul className="list-disc mb-8">
+      <ul class="list-disc mb-8">
         <li>
           <Text noMargin>
             <strong>Cookies or Browser Cookies.</strong> A cookie is a small
@@ -205,7 +205,7 @@ export default component$(() => {
       </Text>
       <Text tag={"h3"}>Use of Your Personal Data</Text>
       <Text>The Company may use Personal Data for the following purposes:</Text>
-      <ul className="list-disc mb-8">
+      <ul class="list-disc mb-8">
         <li>
           <Text noMargin>
             <strong>To provide and maintain our Service</strong>, including to
@@ -278,7 +278,7 @@ export default component$(() => {
       <Text>
         We may share Your personal information in the following situations:
       </Text>
-      <ul className="list-disc mb-8">
+      <ul class="list-disc mb-8">
         <li>
           <Text noMargin>
             <strong>With Service Providers:</strong> We may share Your personal
@@ -415,7 +415,7 @@ export default component$(() => {
         The Company may disclose Your Personal Data in the good faith belief
         that such action is necessary to:
       </Text>
-      <ul className="list-disc mb-8">
+      <ul class="list-disc mb-8">
         <li>
           <Text noMargin>Comply with a legal obligation</Text>
         </li>
@@ -498,7 +498,7 @@ export default component$(() => {
       <Text>
         If you have any questions about this Privacy Policy, You can contact us:
       </Text>
-      <ul className="list-disc mb-8">
+      <ul class="list-disc mb-8">
         <li>
           <Text noMargin>
             By filling out this contact form:{" "}
@@ -511,3 +511,15 @@ export default component$(() => {
     </section>
   );
 });
+
+// sets the title and meta properties of the page
+export const head: DocumentHead = {
+  title: "Privacy policy - Untied",
+  meta: [
+    {
+      name: "description",
+      content:
+        "This privacy policy has been compiled to better serve those who are concerned with how their 'Personally Identifiable Information' (PII) is being used online.",
+    },
+  ],
+};
