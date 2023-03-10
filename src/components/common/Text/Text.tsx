@@ -18,6 +18,7 @@ export default component$<TextProps>(
 
     return (
       <Tag class={classNames} style={noMargin ? "margin: 0" : ""}>
+        {/*// @ts-ignore*/}
         <Slot />
       </Tag>
     );
