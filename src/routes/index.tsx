@@ -2,7 +2,6 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Hero from "~/components/Hero/Hero";
 import Button from "~/components/common/Button/Button";
-import { CallToAction } from "~/components/CallToAction/CallToAction";
 import Text from "~/components/common/Text/Text";
 
 export default component$(() => {
@@ -211,22 +210,29 @@ export const ImplementationTimeCTA = () => {
 
 export const OurMission = () => {
   return (
-    <section className="my-12 lg:my-24 flex-col max-w-xl mx-auto">
-      <Text type={"heading-1"} tag={"h2"} center>
-        Our mission
+    <section class="my-12 lg:my-24 flex-col max-w-xl mx-auto pt-12">
+      <Text type="heading-1" tag="h2" center>
+        We're on a mission.
       </Text>
-      <Text type={"lg"}>
-        We’re on a mission to make health and fitness personal and tailored to
-        every individual person. A key step in getting there is simplifying
-        access to wearable health data.
-      </Text>
-      <Text type={"lg"}>
-        Whether your app is on the web, mobile or even on a smart TV, developers
-        should be able to build and enhance their health and fitness
-        applications with real data gathered by wearable devices in a
-        consistent, reliable and cost-effective manner.
-      </Text>
-      <Text type={"lg"}>Together, let’s build the future of health!</Text>
+      <p class="text-center">
+        We want to make wellness personal and tailored to every individual
+        person. A key step in getting there is simplifying access and making
+        sense of wearable health data.
+      </p>
+    </section>
+  );
+};
+
+export const CallToAction = () => {
+  return (
+    <section class="my-12 lg:my-24 flex flex-col max-w-xl mx-auto py-12">
+      <div class="flex justify-center">
+        <Button
+          text="Get started"
+          className="!px-12"
+          href={"https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"}
+        />
+      </div>
     </section>
   );
 };
