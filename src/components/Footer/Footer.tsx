@@ -9,8 +9,8 @@ export default component$(() => {
 
   return (
     <footer>
-      <div class="container flex flex-col items-center gap-8 md:flex-row mx-auto flex h-full justify-between">
-        <div class="flex flex-col justify-center whitespace-nowrap">
+      <div class="container flex flex-col items-center gap-8 md:flex-row mx-auto h-full justify-between">
+        <div class="flex flex-col justify-center">
           <Link href="/">
             <div class="flex items-center mb-4">
               <div class="mr-4">
@@ -19,13 +19,13 @@ export default component$(() => {
               <h1 class="text-2xl m-0">Untied</h1>
             </div>
           </Link>
-          <span class="text-sm text-gray-50">Org. no 559400-2304</span>
-          <Link href="/">
-            <span class="text-sm text-gray-50">© 2023 Untied World AB</span>
-          </Link>
+          <p class="text-sm text-gray-50 max-w-lg">
+            Copyright © 2023 Untied World AB. All rights reserved. Organization
+            number: 559400-2304
+          </p>
         </div>
 
-        <div class="flex w-full justify-evenly md:justify-end gap-8 md:gap-12">
+        <div class="flex w-full justify-evenly md:justify-end gap-8 md:gap-24">
           <ul class="flex flex-col text-right md:text-left space-y-2 md:space-y-4">
             <li class="flex justify-end md:justify-start text-primary-500 whitespace-nowrap">
               Find us
@@ -34,8 +34,10 @@ export default component$(() => {
               <Link
                 href="https://github.com/untiedworld"
                 target="_blank"
-                aria-label={"Github"}
+                aria-label="Github"
+                class="flex gap-2 items-center"
               >
+                Github
                 <GithubIcon />
               </Link>
             </li>
@@ -43,16 +45,7 @@ export default component$(() => {
           <ul class="flex flex-col text-right md:text-left space-y-2 md:space-y-4">
             <li class="text-primary-500">Company</li>
             <li>
-              <Link
-                href="https://docs.untied.world"
-                target="_blank"
-                aria-label={"Developer documentation"}
-              >
-                Docs
-              </Link>
-            </li>
-            <li>
-              <Link href="/about">About</Link>
+              <Link href="/about">Team</Link>
             </li>
             <li>
               <Link
@@ -63,15 +56,7 @@ export default component$(() => {
               </Link>
             </li>
             <li>
-              <Link
-                href="https://dtyl3ii63lk.typeform.com/to/WQkcPqZx"
-                target="_blank"
-              >
-                Careers
-              </Link>
-            </li>
-            <li>
-              <Link href="/privacy">Privacy</Link>
+              <Link href="/privacy">Privacy Policy</Link>
             </li>
           </ul>
         </div>
