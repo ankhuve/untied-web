@@ -14,18 +14,18 @@ export default component$(() => {
             One integration, <br />
             endless wellness solutions
           </Text>
-          <Text>
-            Build or enhance your health or fitness service by integrating your
-            customers wearable devices. Connect to any wearable device through
-            our single, easy-to-use API. Turn the data into actionable insights
-            which fuel new features, happier users and higher revenue.
+          <Text className="max-w-md">
+            Untied transforms in real-time your users wearable and sensor health
+            data into actionable insights that drive new product features,
+            improved user engagement and higher revenues.
           </Text>
-          <Button
-            glow
-            text="Get access"
-            href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
-            className="mt-8"
-          />
+          <div class="flex">
+            <Button
+              text="Get access"
+              href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
+              className="mt-8 !px-16"
+            />
+          </div>
         </div>
       </Hero>
       <div class="container mx-auto px-4 lg:px-16">
@@ -41,97 +41,78 @@ export default component$(() => {
 
 export const BestCustomerExperience = () => {
   return (
-    <section class="my-12 lg:my-24 flex flex-col">
-      <h2>Create the best customer experience</h2>
-      <p>
+    <section class="mx-auto max-w-5xl my-12 lg:my-24 lg:mt-32">
+      <h2 class="text-center">Create the best customer experience</h2>
+      <p class="mx-auto text-center max-w-2xl">
         Our data collection and solutions empower you to create and open new
         possibilities for your customers, to maximize engagement and revenue.
       </p>
-      <div className="flex flex-wrap gap-y-24 mt-16">
-        <div className="w-full lg:w-1/2 flex items-center">
-          <div className="w-1/4 lg:w-1/3 xl:1/4">
-            <img
-              src="/assets/images/step-2-2.svg"
-              alt="Step 2.2: Allow the requested permissions"
-              width="160"
-              height="330"
-              className="shadow-glow-green rounded-2xl"
-            />
-          </div>
-          <div className="w-3/4 p-8 flex flex-col justify-center">
-            <Text type={"heading-3"} tag={"h3"}>
-              One integration to unify health and fitness data.
-            </Text>
-            <p>
-              Our data collection and solutions empower you to create and open
-              new possibilities for your customers, to maximize engagement and
-              revenue.
-            </p>
-          </div>
+      <div class="grid gap-16 grid-cols-2 py-32">
+        <div class="flex justify-end items-center">
+          <img src="/assets/images/home/integrations.svg" />
         </div>
-        <div className="w-full lg:w-1/2 flex items-center">
-          <div className="w-1/4 lg:w-1/3 xl:1/4">
-            <img
-              src="/assets/images/step-2-2.svg"
-              alt="Step 2.2: Allow the requested permissions"
-              width="160"
-              height="330"
-              class="shadow-glow-green rounded-2xl"
-            />
-          </div>
-          <div className="w-3/4 p-8 flex flex-col justify-center">
-            <Text type={"heading-3"} tag={"h3"}>
-              Seamless user experience.
-            </Text>
-            <p>
-              Our data collection and solutions empower you to create and open
-              new possibilities for your customers, to maximize engagement and
-              revenue.
-            </p>
-          </div>
+        <div class="flex flex-col justify-center">
+          <Text type={"heading-3"} tag={"h3"} className="text-primary-200">
+            One integration to unify health, fitness and sensor data.
+          </Text>
+          <p class="text-base mb-0">
+            Allow your users to connect and see their health and fitness data
+            via the Untied link.
+          </p>
         </div>
-        <div className="w-full lg:w-1/2 flex items-center">
-          <div className="w-1/4 lg:w-1/3 xl:1/4">
-            <img
-              src="/assets/images/step-2-2.svg"
-              alt="Step 2.2: Allow the requested permissions"
-              width="160"
-              height="330"
-              class="shadow-glow-green rounded-2xl"
-            />
-          </div>
-          <div className="w-3/4 p-8 flex flex-col justify-center">
-            <Text type={"heading-3"} tag={"h3"}>
-              Get insights and recommendations into your business.
-            </Text>
-            <p>
-              Our data collection and solutions empower you to create and open
-              new possibilities for your customers, to maximize engagement and
-              revenue.
-            </p>
-          </div>
+      </div>
+      <div class="grid gap-16 grid-cols-2 py-32">
+        <div class="flex flex-col justify-center">
+          <Text type={"heading-3"} tag={"h3"} className="text-primary-200">
+            Standardized, harmonized and reliable data.
+          </Text>
+          <p class="text-base mb-0">
+            We map device data into standardized formats and harmonize it across
+            wearable devices, so that you can compare metrics regardless of
+            device.
+          </p>
         </div>
-        <div className="w-full lg:w-1/2 flex items-center">
-          <div className="w-1/4 lg:w-1/3 xl:1/4">
-            <img
-              src="/assets/images/step-2-2.svg"
-              alt="Step 2.2: Allow the requested permissions"
-              width="160"
-              height="330"
-              class="shadow-glow-green rounded-2xl"
-            />
-          </div>
-          <div className="w-3/4 p-8 flex flex-col justify-center">
-            <Text type={"heading-3"} tag={"h3"}>
-              Forecast your journey.
-            </Text>
-            <p>
-              Our data collection and solutions empower you to create and open
-              new possibilities for your customers, to maximize engagement and
-              revenue.
-            </p>
-          </div>
+        <div class="flex justify-start items-center">
+          <img src="/assets/images/home/data.svg" />
         </div>
+      </div>
+      <div class="grid gap-16 grid-cols-2 py-32">
+        <div class="flex justify-end items-center">
+          <img src="/assets/images/home/insights.png" />
+        </div>
+        <div class="flex flex-col justify-center">
+          <Text type={"heading-3"} tag={"h3"} className="text-primary-200">
+            Real-time insights and recommendations into your business.
+          </Text>
+          <p class="text-base">
+            Our platform optimizes and makes sense of all user data and provides
+            actionable insights through your personalized user dashboard.
+          </p>
+          <p class="text-base font-bold mb-0">(Coming soon)</p>
+        </div>
+      </div>
+      <div class="grid gap-16 grid-cols-2 py-32">
+        <div class="flex flex-col justify-center">
+          <Text type={"heading-3"} tag={"h3"} className="text-primary-200">
+            1-click implementation of new feature.
+          </Text>
+          <p class="text-base">
+            Well, maybe not with just one click, but we offer plug & play
+            features such as sleep analysis and heart rate variability analysis
+            ready to be implemented directly into your app or service.
+          </p>
+          <p class="text-base font-bold mb-0">(Coming soon)</p>
+        </div>
+        <div class="flex justify-start items-center">
+          <img src="/assets/images/home/modules.png" />
+        </div>
+      </div>
+      <div class="flex justify-center items-center h-48">
+        <Button
+          text="Get started"
+          href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
+          className="!px-16"
+        />
       </div>
     </section>
   );
