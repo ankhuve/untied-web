@@ -23,7 +23,7 @@ export default component$(() => {
             <Button
               text="Get access"
               href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
-              className="mt-8 !px-16"
+              className="mt-8 !px-12"
             />
           </div>
         </div>
@@ -111,7 +111,7 @@ export const BestCustomerExperience = () => {
         <Button
           text="Get started"
           href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
-          className="!px-16"
+          className="!px-12"
         />
       </div>
     </section>
@@ -191,12 +191,18 @@ export const ImplementationTimeCTA = () => {
     <section class="my-12 lg:my-24 flex-col">
       <hr class="mb-8" />
       <div class="flex flex-col sm:flex-row items-center justify-between">
-        <h2 class="m-0">Implementation just went from months to hours</h2>
-        <Button
-          text="Get started"
-          className="!block pl-8 my-8 sm:my-0"
-          href={"https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"}
-        />
+        <h2 class="m-0 w-8/12 mb-8 sm:m-0">
+          Implementation just went from months to hours
+        </h2>
+        <div class="w-4/12 mx-auto">
+          <div class="flex justify-center">
+            <Button
+              text="Get started"
+              className="!px-12"
+              href={"https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"}
+            />
+          </div>
+        </div>
       </div>
       <hr class="mt-8" />
     </section>
