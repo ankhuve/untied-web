@@ -121,69 +121,65 @@ export const BestCustomerExperience = () => {
 export const FutureOfWellness = () => {
   return (
     <section class="my-12 lg:my-24 flex flex-col">
-      <h2>Build the future of wellness</h2>
-      <p>
+      <h2 class="text-center">Build the future of wellness.</h2>
+      <p class="text-center">
         We believe that you should be in control of your own product. That’s why
         we offer two different ways to integrate Untied into your product. You
         can host Untied yourself using our open source software, or let Untied
         provide a complete solution for you.
       </p>
-      <div className="flex flex-wrap gap-y-24 mt-16">
-        <div className="w-full md:w-1/2 xl:w-1/3 md:pr-8 xl:pr-16">
-          <div className="w-[64px] h-[64px] bg-primary-500 rounded-full mb-6"></div>
-          <Text tag={"h4"} className="text-heading-3">
-            All wearables and sensors
+      <div class="py-16 mx-auto max-w-4xl grid grid-cols-1 gap-x-16 gap-y-8 sm:grid-cols-2">
+        <div class="textbox-gradient p-8 rounded-xl">
+          <Text tag="h4" className="text-2xl font-bold mb-2">
+            All wearables and sensors.
           </Text>
-          <p>Support any wearable and sensor with our seamless experience.</p>
-        </div>
-        <div className="w-full md:w-1/2 xl:w-1/3 md:pr-8 xl:pr-16">
-          <div className="w-[64px] h-[64px] bg-primary-500 rounded-full mb-6"></div>
-          <Text tag={"h4"} className="text-heading-3">
-            Loved by developers
-          </Text>
-          <p>
-            We want to give developers the tools they need to build the best
-            applications possible.
+          <p class="text-base mb-0">
+            Support any wearable and sensor with our seamless experience.
           </p>
         </div>
-        <div className="w-full md:w-1/2 xl:w-1/3 md:pr-8 xl:pr-16">
-          <div className="w-[64px] h-[64px] bg-primary-500 rounded-full mb-6"></div>
-          <Text tag={"h4"} className="text-heading-3">
-            Security you can trust
+        <div class="textbox-gradient p-8 rounded-xl">
+          <Text tag="h4" className="text-2xl font-bold mb-2">
+            Security you can trust.
           </Text>
-          <p>
-            We take our security very seriously, and that's we anonymize all
+          <p class="text-base mb-0">
+            We take your security very seriously and that's why we anonymize all
             data by default.
           </p>
         </div>
-        <div className="w-full md:w-1/2 xl:w-1/3 md:pr-8 xl:pr-16">
-          <div className="w-[64px] h-[64px] bg-primary-500 rounded-full mb-6"></div>
-          <Text tag={"h4"} className="text-heading-3">
-            Open source
+        <div class="textbox-gradient p-8 rounded-xl">
+          <Text tag="h4" className="text-2xl font-bold mb-2">
+            Open source, self-hostable.
           </Text>
-          <p>
-            We give you the flexibility to host your own instance of Untied, no
-            risk of vendor lock-in.
+          <p class="text-base mb-0">
+            We understand the importance of transparency and being in charge of
+            your own data.
           </p>
         </div>
-        <div className="w-full md:w-1/2 xl:w-1/3 md:pr-8 xl:pr-16">
-          <div className="w-[64px] h-[64px] bg-primary-500 rounded-full mb-6"></div>
-          <Text tag={"h4"} className="text-heading-3">
-            Companies and ideas of any size
+        <div class="textbox-gradient p-8 rounded-xl">
+          <Text tag="h4" className="text-2xl font-bold mb-2">
+            For compaines of any size.
           </Text>
-          <p>
-            Our platform serves big, growing, and small companies alike,
+          <p class="text-base mb-0">
+            Our platform serves startups, scaleups and large enterprises alike,
             providing custom solutions and tools.
           </p>
         </div>
-        <div className="w-full md:w-1/2 xl:w-1/3 md:pr-8 xl:pr-16">
-          <div className="w-[64px] h-[64px] bg-primary-500 rounded-full mb-6"></div>
-          <Text tag={"h4"} className="text-heading-3">
-            World class support
+        <div class="textbox-gradient p-8 rounded-xl">
+          <Text tag="h4" className="text-2xl font-bold mb-2">
+            Loved by developers.
           </Text>
-          <p>
-            Our dedicated team is committed to providing you with the assistance
-            you need, when you need it. Don't hesitate to reach out.
+          <p class="text-base mb-0">
+            We give developers the tools they need to build the best
+            applications possible.
+          </p>
+        </div>
+        <div class="textbox-gradient p-8 rounded-xl">
+          <Text tag="h4" className="text-2xl font-bold mb-2">
+            Seamless user experience.
+          </Text>
+          <p class="text-base mb-0">
+            Our widget module streamlines your onboarding experience to help
+            users connect their wearables and sensors.
           </p>
         </div>
       </div>

@@ -80,7 +80,6 @@ p {
 }
 
 .textbox-gradient {
-  @apply p-8 rounded-lg shadow-glow-green;
   background: linear-gradient(
     251.95deg,
     #0c4e0f -23.74%,
