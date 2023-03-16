@@ -43,7 +43,7 @@ export const BestCustomerExperience = () => {
       </p>
       <div class="grid gap-16 sm:grid-cols-2 py-24 sm:py-32">
         <div class="flex justify-center sm:justify-end items-center order-2 sm:order-1">
-          <img src="/assets/images/home/integrations.svg" />
+          <img src="/assets/images/home/integrations.png" />
         </div>
         <div class="flex flex-col justify-center">
           <Text type="heading-3" tag="h3" className="text-primary-200">
@@ -67,7 +67,7 @@ export const BestCustomerExperience = () => {
           </p>
         </div>
         <div class="flex justify-center sm:justify-start items-center">
-          <img src="/assets/images/home/data.svg" />
+          <img src="/assets/images/home/data.png" />
         </div>
       </div>
       <div class="grid gap-16 sm:grid-cols-2 py-24 sm:py-32">
