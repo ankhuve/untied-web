@@ -19,17 +19,15 @@ export default component$(() => {
               <h1 class="text-2xl m-0">Untied</h1>
             </div>
           </Link>
-          <p class="text-sm text-gray-50 max-w-lg">
+          <p class="text-sm text-gray-50 max-w-sm">
             Copyright © 2023 Untied World AB. All rights reserved. Organization
             number: 559400-2304
           </p>
         </div>
 
-        <div class="flex w-full justify-evenly md:justify-end gap-8 md:gap-24">
-          <ul class="flex flex-col text-right md:text-left space-y-2 md:space-y-4">
-            <li class="flex justify-end md:justify-start text-primary-500 whitespace-nowrap">
-              Find us
-            </li>
+        <div class="flex max-w-md justify-evenly md:justify-end gap-8 md:gap-24">
+          <ul class="flex flex-col space-y-4">
+            <li class="flex text-primary-500 whitespace-nowrap">Find us</li>
             <li class="flex justify-end md:justify-start">
               <Link
                 href="https://github.com/untiedworld"
@@ -42,7 +40,7 @@ export default component$(() => {
               </Link>
             </li>
           </ul>
-          <ul class="flex flex-col text-right md:text-left space-y-2 md:space-y-4">
+          <ul class="flex flex-col space-y-4">
             <li class="text-primary-500">Company</li>
             <li>
               <Link href="/about">Team</Link>

@@ -1,4 +1,4 @@
 footer {
-    @apply w-full p-4 md:px-16;
-    background: linear-gradient(180deg, #002F00 0%, #022F02 100%);
+  @apply w-full p-4 py-12 md:px-16;
+  background: linear-gradient(180deg, #002f00 0%, #022f02 100%);
 }
