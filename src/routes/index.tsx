@@ -239,7 +239,7 @@ export const CallToAction = () => {
 
 // sets the title and meta properties of the page
 export const head: DocumentHead = {
-  title: "One API, all wearable devices - Untied",
+  title: "One integration, endless wellness solutions -  Untied",
   meta: [
     {
       name: "description",
