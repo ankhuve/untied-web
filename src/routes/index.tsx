@@ -8,7 +8,7 @@ export default component$(() => {
   return (
     <>
       <Hero>
-        <div class="flex flex-col relative justify-center px-8 sm:px-16 md:mt-16 md:h-full max-w-[1536px] mx-auto">
+        <div class="flex flex-col relative justify-center px-8 sm:px-16 md:mt-24 md:h-full max-w-[1536px] mx-auto">
           <Text tag={"h1"} type={"heading-1"}>
             One integration, <br />
             endless wellness solutions
