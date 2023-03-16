@@ -28,8 +28,8 @@ export default component$(() => {
           </Link>
         </li>
         <li>
-          <Link href="/about" class="p-2 md:p-4 lg:px-6">
-            About
+          <Link href="/team" class="p-2 md:p-4 lg:px-6">
+            Team
           </Link>
         </li>
         <li>
