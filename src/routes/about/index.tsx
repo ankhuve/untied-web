@@ -3,111 +3,120 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import { Link } from "@builder.io/qwik-city";
 import Hero from "~/components/Hero/Hero";
 import Text from "~/components/common/Text/Text";
-import { CallToAction } from "~/components/CallToAction/CallToAction";
+import Button from "~/components/common/Button/Button";
 
 export default component$(() => {
   return (
     <>
-      <Hero>
-        <div class="flex flex-col justify-center max-w-3xl px-8 mx-auto space-y-4 md:space-y-8 md:h-full container">
-          <h1>Untied wha..?</h1>
-          <Text>
-            Untied is an open source platform to easily get health and fitness
-            data (such as heart rate, steps, activity, blood levels - you name
-            it) from wearable devices.
+      <Hero className="!h-fit">
+        <div class="flex flex-col justify-center pt-64 py-24 px-8 mx-auto container">
+          <Text tag="h1" type="heading-1" className="text-center">
+            Meet the Untied team
           </Text>
-          <Text>
-            The data you receive on your end is standardized. That means no
-            matter which device you get it from, it will be formatted the same
-            way to make it easy for you to handle.
+          <Text className="text-center max-w-2xl mx-auto pb-8">
+            We are passionate about helping people achieve better health through
+            personalized and tailored wellness. Our team includes business
+            people, developers, designers, and health and fitness enthusiasts.
           </Text>
-          <Text>
-            Host Untied yourself, or sign up for the hosted version for a quick
-            way to get started.
-          </Text>
-        </div>
-      </Hero>
-      <div class="flex flex-col items-center px-8 mx-auto space-y-12 lg:space-y-24 my-12 lg:my-24">
-        <section class="container">
-          <Text type={"heading-1"} tag={"h2"} center>
-            Meet the team
-          </Text>
-          <div class="grid lg:grid-cols-3 gap-8 lg:gap-16 mt-8 lg:mt-16">
+          <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8 lg:gap-16 mt-8 lg:mt-16 max-w-4xl mx-auto">
             <div class="text-center">
               <img
-                src="/assets/images/daniel.png"
-                alt="Daniel"
+                src="/assets/images/team/johannes.png"
+                alt="Johannes"
                 width={128}
                 height={128}
-                class="rounded-4xl h-32 w-32 mx-auto mb-4"
+                class="rounded-full h-32 w-32 mx-auto mb-4"
               />
-              <Text type={"heading-3"} tag={"h3"}>
-                Daniel Hellquist
-              </Text>
-              <Text>Business person</Text>
+              <Text className="text-lg font-bold mb-0">Johannes Mattsson</Text>
+              <Text className="text-sm">Tech</Text>
             </div>
             <div class="text-center">
               <img
-                src="/assets/images/erik.png"
+                src="/assets/images/team/erik.png"
                 alt="Erik"
                 width={128}
                 height={128}
-                class="rounded-4xl h-32 w-32 mx-auto mb-4"
+                class="rounded-full h-32 w-32 mx-auto mb-4"
               />
-              <Text type={"heading-3"} tag={"h3"}>
-                Erik Forsberg
-              </Text>
-              <Text>Tech person</Text>
+              <Text className="text-lg font-bold mb-0">Erik Forsberg</Text>
+              <Text>Tech</Text>
             </div>
             <div class="text-center">
               <img
-                src="/assets/images/wille.png"
+                src="/assets/images/team/arvid.png"
+                alt="Arvid"
+                width={128}
+                height={128}
+                class="rounded-full h-32 w-32 mx-auto mb-4"
+              />
+              <Text className="text-lg font-bold mb-0">Arvid Klint</Text>
+              <Text>Tech</Text>
+            </div>
+            <div class="text-center">
+              <img
+                src="/assets/images/team/daniel.png"
+                alt="Daniel"
+                width={128}
+                height={128}
+                class="rounded-full h-32 w-32 mx-auto mb-4"
+              />
+              <Text className="text-lg font-bold mb-0">Daniel Hellquist</Text>
+              <Text>Sales</Text>
+            </div>
+            <div class="text-center">
+              <img
+                src="/assets/images/team/wille.png"
                 alt="Wilhelm"
                 width={128}
                 height={128}
-                class="rounded-4xl h-32 w-32 mx-auto mb-4"
+                class="rounded-full h-32 w-32 mx-auto mb-4"
               />
-              <Text type={"heading-3"} tag={"h3"}>
-                Wilhelm Schenning
-              </Text>
-              <Text>Business person</Text>
+              <Text className="text-lg font-bold mb-0">Wilhelm Schenning</Text>
+              <Text>Product</Text>
             </div>
-            <div class="text-center lg:col-span-3">
+            <div class="text-center">
               <img
-                src="/assets/images/you.png"
+                src="/assets/images/team/you.png"
                 alt="An anonymous avatar"
                 width={128}
                 height={128}
-                class="rounded-4xl h-32 w-32 mx-auto mb-4"
+                class="rounded-full h-32 w-32 mx-auto mb-4"
               />
-              <Text type={"heading-3"} tag={"h3"}>
-                Maybe you?
-              </Text>
+              <Text className="text-lg font-bold mb-0">You</Text>
               <Link
                 href="https://dtyl3ii63lk.typeform.com/to/WQkcPqZx"
-                target={"_blank"}
+                target="_blank"
               >
-                <Text underline>Let's get in touch!</Text>
+                <Text underline>Send us your CV</Text>
               </Link>
             </div>
           </div>
-        </section>
-        <section>
-          <CallToAction />
-        </section>
-      </div>
+        </div>
+      </Hero>
+      <section class="flex flex-col items-center py-32">
+        <h2 class="text-center mb-8">Get in touch?</h2>
+        <Text className="max-w-md text-center mb-12">
+          We’re friendly, so don’t hesitate to ask us anything (unless it’s
+          lunchtime).
+        </Text>
+        <Button
+          className="!px-10 !py-6"
+          text="Contact"
+          href="https://dtyl3ii63lk.typeform.com/to/KA75GQKQ"
+        />
+      </section>
     </>
   );
 });
 
 // sets the title and meta properties of the page
 export const head: DocumentHead = {
-  title: "About - Untied",
+  title: "Team - Untied",
   meta: [
     {
       name: "description",
       content:
-        "Here's some information about who we are at Untied World, what we do, and why we do what we do.",
+        "Some information about who we are at Untied World, what we do, and why we do what we do.",
     },
   ],
 };
