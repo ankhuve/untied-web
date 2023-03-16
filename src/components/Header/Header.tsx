@@ -14,11 +14,12 @@ export default component$(() => {
         <div class="mr-4">
           <UntiedLogo />
         </div>
-        <h1 class="text-2xl m-0">Untied</h1>
+        <h1 class="hidden sm:block text-2xl m-0">Untied</h1>
       </Link>
       <ul class="flex items-center text-right gap-2 lg:gap-4">
         <li>
           <Link
+            class="p-2 md:p-4 lg:px-6"
             href="https://docs.untied.world"
             target="_blank"
             aria-label={"Developer documentation"}
@@ -27,13 +28,13 @@ export default component$(() => {
           </Link>
         </li>
         <li>
-          <Link href="/about" class="p-2 md:p-4">
+          <Link href="/about" class="p-2 md:p-4 lg:px-6">
             About
           </Link>
         </li>
         <li>
           <Link
-            class="p-2 md:p-4"
+            class="p-2 md:p-4 lg:px-6"
             href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
             target="_blank"
           >
@@ -44,14 +45,15 @@ export default component$(() => {
           <Link
             href="https://github.com/untiedworld"
             target="_blank"
-            class="px-4"
+            class="block p-2 md:p-4 lg:px-6"
             aria-label={"Github"}
           >
-            <GithubIcon />
+            <GithubIcon size={32} />
           </Link>
         </li>
         <li class="pl-4 hidden sm:block">
           <Button
+            className="!py-6 !px-6"
             text="Get started"
             href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
           />

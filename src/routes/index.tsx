@@ -19,11 +19,7 @@ export default component$(() => {
             improved user engagement and higher revenues.
           </Text>
           <div class="flex">
-            <Button
-              text="Get started"
-              href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
-              className="mt-8 !px-12"
-            />
+            <CallToAction />
           </div>
         </div>
       </Hero>
@@ -39,18 +35,18 @@ export default component$(() => {
 
 export const BestCustomerExperience = () => {
   return (
-    <section class="mx-auto max-w-5xl my-12 lg:my-24 lg:mt-32">
+    <section class="mx-auto max-w-5xl px-4 py-12 sm:py-16 lg:my-24 lg:mt-32">
       <h2 class="text-center">Create the best customer experience</h2>
       <p class="mx-auto text-center max-w-2xl">
         Our data collection and solutions empower you to create and open new
         possibilities for your customers, to maximize engagement and revenue.
       </p>
-      <div class="grid gap-16 grid-cols-2 py-32">
-        <div class="flex justify-end items-center">
+      <div class="grid gap-16 sm:grid-cols-2 py-24 sm:py-32">
+        <div class="flex justify-center sm:justify-end items-center order-2 sm:order-1">
           <img src="/assets/images/home/integrations.svg" />
         </div>
         <div class="flex flex-col justify-center">
-          <Text type={"heading-3"} tag={"h3"} className="text-primary-200">
+          <Text type="heading-3" tag="h3" className="text-primary-200">
             One integration to unify health, fitness and sensor data.
           </Text>
           <p class="text-base mb-0">
@@ -59,9 +55,9 @@ export const BestCustomerExperience = () => {
           </p>
         </div>
       </div>
-      <div class="grid gap-16 grid-cols-2 py-32">
+      <div class="grid gap-16 sm:grid-cols-2 py-24 sm:py-32">
         <div class="flex flex-col justify-center">
-          <Text type={"heading-3"} tag={"h3"} className="text-primary-200">
+          <Text type="heading-3" tag="h3" className="text-primary-200">
             Standardized, harmonized and reliable data.
           </Text>
           <p class="text-base mb-0">
@@ -70,16 +66,16 @@ export const BestCustomerExperience = () => {
             device.
           </p>
         </div>
-        <div class="flex justify-start items-center">
+        <div class="flex justify-center sm:justify-start items-center">
           <img src="/assets/images/home/data.svg" />
         </div>
       </div>
-      <div class="grid gap-16 grid-cols-2 py-32">
-        <div class="flex justify-end items-center">
+      <div class="grid gap-16 sm:grid-cols-2 py-24 sm:py-32">
+        <div class="flex justify-center sm:justify-end items-center order-2 sm:order-1">
           <img src="/assets/images/home/insights.png" />
         </div>
         <div class="flex flex-col justify-center">
-          <Text type={"heading-3"} tag={"h3"} className="text-primary-200">
+          <Text type="heading-3" tag="h3" className="text-primary-200">
             Real-time insights and recommendations into your business.
           </Text>
           <p class="text-base">
@@ -89,9 +85,9 @@ export const BestCustomerExperience = () => {
           <p class="text-base font-bold mb-0">(Coming soon)</p>
         </div>
       </div>
-      <div class="grid gap-16 grid-cols-2 py-32">
+      <div class="grid gap-16 sm:grid-cols-2 py-24 sm:py-32">
         <div class="flex flex-col justify-center">
-          <Text type={"heading-3"} tag={"h3"} className="text-primary-200">
+          <Text type="heading-3" tag="h3" className="text-primary-200">
             1-click implementation of new features.
           </Text>
           <p class="text-base">
@@ -101,7 +97,7 @@ export const BestCustomerExperience = () => {
           </p>
           <p class="text-base font-bold mb-0">(Coming soon)</p>
         </div>
-        <div class="flex justify-start items-center">
+        <div class="flex justify-center sm:justify-start items-center">
           <img src="/assets/images/home/modules.png" />
         </div>
       </div>
@@ -184,8 +180,8 @@ export const ImplementationTimeCTA = () => {
   return (
     <section class="my-12 lg:my-24 flex-col">
       <hr class="mb-8" />
-      <div class="flex flex-col sm:flex-row items-center justify-between">
-        <h2 class="m-0 w-8/12 mb-8 sm:m-0">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between">
+        <h2 class="m-0 w-full sm:w-8/12 mb-8 sm:m-0 text-center sm:text-left">
           Implementation just went from months to hours.
         </h2>
         <div class="w-4/12 mx-auto">
@@ -223,15 +219,13 @@ export const OurMission = () => {
 
 export const CallToAction = () => {
   return (
-    <section class="flex flex-col max-w-xl mx-auto">
-      <div class="flex justify-center">
-        <Button
-          text="Get started"
-          className="!px-16 !py-6"
-          href={"https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"}
-        />
-      </div>
-    </section>
+    <div class="flex justify-center">
+      <Button
+        text="Get started"
+        className="!px-16 !py-6"
+        href={"https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"}
+      />
+    </div>
   );
 };
 
