@@ -45,7 +45,7 @@ export const BestCustomerExperience = () => {
         <div class="flex justify-center sm:justify-end items-center order-2 sm:order-1">
           <img src="/assets/images/home/integrations.png" />
         </div>
-        <div class="flex flex-col justify-center">
+        <div class="flex flex-col justify-center sm:order-2">
           <Text type="heading-3" tag="h3" className="text-primary-200">
             One integration to unify health, fitness and sensor data.
           </Text>
@@ -74,7 +74,7 @@ export const BestCustomerExperience = () => {
         <div class="flex justify-center sm:justify-end items-center order-2 sm:order-1">
           <img src="/assets/images/home/insights.png" />
         </div>
-        <div class="flex flex-col justify-center">
+        <div class="flex flex-col justify-center sm:order-2">
           <Text type="heading-3" tag="h3" className="text-primary-200">
             Real-time insights and recommendations into your business.
           </Text>
