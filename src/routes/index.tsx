@@ -8,8 +8,8 @@ export default component$(() => {
   return (
     <>
       <Hero>
-        <div class="flex flex-col relative justify-center px-8 sm:px-16 md:mt-24 md:h-full max-w-[1536px] mx-auto">
-          <Text tag={"h1"} type={"heading-1"}>
+        <div class="flex flex-col relative justify-center px-8 sm:px-16 md:mt-24 md:h-full w-full max-w-[1536px] mx-auto">
+          <Text tag="h1" type="heading-1">
             One integration, <br />
             endless wellness solutions
           </Text>
@@ -112,7 +112,7 @@ export const FutureOfWellness = () => {
   return (
     <section class="my-12 lg:my-24 flex flex-col">
       <h2 class="text-center">Build the future of wellness.</h2>
-      <p class="text-center">
+      <p class="text-center max-w-4xl mx-auto">
         We believe that you should be in control of your own product. That’s why
         we offer two different ways to integrate Untied into your product. You
         can host Untied yourself using our open source software, or let Untied
@@ -178,14 +178,18 @@ export const FutureOfWellness = () => {
 };
 export const ImplementationTimeCTA = () => {
   return (
-    <section class="my-12 lg:my-24 flex-col">
+    <section class="my-12 lg:my-24 flex-col max-w-6xl mx-auto">
       <hr class="mb-8" />
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between">
-        <h2 class="m-0 w-full sm:w-8/12 mb-8 sm:m-0 text-center sm:text-left">
+      <div class="flex flex-col gap-x-4 md:flex-row sm:items-center justify-between px-8">
+        <Text
+          tag="h2"
+          type="heading-2"
+          className="m-0 w-full md:w-8/12 mb-8 md:m-0 text-center md:text-left"
+        >
           Implementation just went from months to hours.
-        </h2>
-        <div class="w-4/12 mx-auto">
-          <div class="flex justify-center">
+        </Text>
+        <div class="md:4/12 mx-auto">
+          <div class="flex justify-end">
             <Button
               text="Get started"
               className="!px-12"
