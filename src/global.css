@@ -9,6 +9,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  background-color: black;
+}
+
 body {
   @apply font-sans text-text;
   -webkit-font-smoothing: antialiased;
