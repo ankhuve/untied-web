@@ -9,7 +9,7 @@ export default component$(() => {
   useStylesScoped$(styles);
 
   return (
-    <header class="flex px-6 py-4 md:px-16 justify-between items-center absolute w-full">
+    <header class="flex px-6 py-4 md:px-16 md:py-8 justify-between items-center absolute w-full">
       <Link href="/" class="flex">
         <div class="mr-4">
           <UntiedLogo />
