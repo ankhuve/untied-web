@@ -32,7 +32,6 @@ export default component$(() => {
         <FutureOfWellness />
         <ImplementationTimeCTA />
         <OurMission />
-        <CallToAction />
       </div>
     </>
   );
@@ -106,12 +105,8 @@ export const BestCustomerExperience = () => {
           <img src="/assets/images/home/modules.png" />
         </div>
       </div>
-      <div class="flex justify-center items-center h-48">
-        <Button
-          text="Get started"
-          href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
-          className="!px-12"
-        />
+      <div class="pb-8">
+        <CallToAction />
       </div>
     </section>
   );
@@ -219,17 +214,20 @@ export const OurMission = () => {
         person. A key step in getting there is simplifying access and making
         sense of wearable health data.
       </p>
+      <div class="py-8">
+        <CallToAction />
+      </div>
     </section>
   );
 };
 
 export const CallToAction = () => {
   return (
-    <section class="my-12 lg:my-24 flex flex-col max-w-xl mx-auto py-12">
+    <section class="flex flex-col max-w-xl mx-auto">
       <div class="flex justify-center">
         <Button
           text="Get started"
-          className="!px-12"
+          className="!px-16 !py-6"
           href={"https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"}
         />
       </div>
