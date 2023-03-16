@@ -52,7 +52,7 @@ export default component$(() => {
         </li>
         <li class="pl-4 hidden sm:block">
           <Button
-            text="Get access"
+            text="Get started"
             href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
           />
         </li>

@@ -20,7 +20,7 @@ export default component$(() => {
           </Text>
           <div class="flex">
             <Button
-              text="Get access"
+              text="Get started"
               href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
               className="mt-8 !px-12"
             />
