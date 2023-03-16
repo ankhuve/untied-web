@@ -93,7 +93,7 @@ export const BestCustomerExperience = () => {
       <div class="grid gap-16 grid-cols-2 py-32">
         <div class="flex flex-col justify-center">
           <Text type={"heading-3"} tag={"h3"} className="text-primary-200">
-            1-click implementation of new feature.
+            1-click implementation of new features.
           </Text>
           <p class="text-base">
             Well, maybe not with just one click, but we offer plug & play
@@ -191,7 +191,7 @@ export const ImplementationTimeCTA = () => {
       <hr class="mb-8" />
       <div class="flex flex-col sm:flex-row items-center justify-between">
         <h2 class="m-0 w-8/12 mb-8 sm:m-0">
-          Implementation just went from months to hours
+          Implementation just went from months to hours.
         </h2>
         <div class="w-4/12 mx-auto">
           <div class="flex justify-center">
