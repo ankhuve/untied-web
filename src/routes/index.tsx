@@ -240,7 +240,7 @@ export const head: DocumentHead = {
     {
       name: "description",
       content:
-        "Build or enhance your health or fitness service by integrating your customers wearable devices. Connect to any wearable device through our single, easy-to-use API.",
+        "Untied transforms in real-time your users wearable and sensor health data into actionable insights that drive new product features, improve user engagement and higher revenues.",
     },
   ],
 };
