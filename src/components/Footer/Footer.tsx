@@ -43,7 +43,7 @@ export default component$(() => {
           <ul class="flex flex-col space-y-4">
             <li class="text-primary-500">Company</li>
             <li>
-              <Link href="/about">Team</Link>
+              <Link href="/team">Team</Link>
             </li>
             <li>
               <Link
