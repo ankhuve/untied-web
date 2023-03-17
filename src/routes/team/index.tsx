@@ -28,7 +28,7 @@ export default component$(() => {
                 class="rounded-full h-32 w-32 mx-auto mb-4"
               />
               <Text className="text-lg font-bold mb-0">Johannes Mattsson</Text>
-              <Text className="text-sm">Tech</Text>
+              <Text>Tech</Text>
             </div>
             <div class="text-center">
               <img
