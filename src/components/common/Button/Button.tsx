@@ -1,5 +1,4 @@
-import { component$, useStylesScoped$ } from "@builder.io/qwik";
-import styles from "./Button.css?inline";
+import { component$ } from "@builder.io/qwik";
 
 interface ButtonProps {
   text: string;
@@ -10,33 +9,20 @@ interface ButtonProps {
 
 export default component$<ButtonProps>(
   ({ text, href, glow = false, className }) => {
-    useStylesScoped$(styles);
-    const classNames = "flex justify-center md:justify-start".concat(
-      className ? " " + className : ""
-    );
-
-    return (
-      <div className={classNames}>
-        {href ? (
-          <a
-            href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
-            target="_blank"
-            className={`button primary whitespace-nowrap ${
-              glow && "shadow-glow"
-            }`}
-          >
-            {text}
-          </a>
-        ) : (
-          <button
-            className={`button primary whitespace-nowrap ${
-              glow && "shadow-glow"
-            }`}
-          >
-            {text}
-          </button>
-        )}
-      </div>
+    const buttonStyle =
+      "bg-primary h-10 flex justify-center items-center rounded-full hover:bg-primary-500 text-white whitespace-nowrap px-6 transition-colors text-base font-bold";
+    return href ? (
+      <a
+        href={href}
+        target="_blank"
+        class={`${buttonStyle} ${glow && "shadow-glow"} ${className}`}
+      >
+        {text}
+      </a>
+    ) : (
+      <button class={`${buttonStyle} ${glow && "shadow-glow"} ${className}`}>
+        {text}
+      </button>
     );
   }
 );

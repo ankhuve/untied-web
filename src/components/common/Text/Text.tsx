@@ -6,17 +6,19 @@ interface TextProps {
   center?: boolean;
   noMargin?: boolean;
   underline?: boolean;
+  className?: string;
 }
 export default component$<TextProps>(
-  ({ type, tag = "p", center, noMargin, underline }) => {
+  ({ type, tag = "p", center, noMargin, underline, className = "" }) => {
     const Tag = tag;
-    const className = ``
+    const classNames = className
       .concat(type ? ` text-${type}` : "")
       .concat(center ? " text-center" : "")
       .concat(underline ? " underline" : "");
 
     return (
-      <Tag class={className} style={noMargin ? "margin: 0" : ""}>
+      <Tag class={classNames} style={noMargin ? "margin: 0" : ""}>
+        {/*// @ts-ignore*/}
         <Slot />
       </Tag>
     );

@@ -9,13 +9,22 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  background-color: black;
+}
+
 body {
   @apply font-sans text-text;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
   line-height: 20px;
-  background: linear-gradient(180deg, #002700 16.54%, #001100 57.2%, #002700 92.93%);
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    #001100 57.2%,
+    #002700 92.93%
+  );
 }
 
 ::selection {
@@ -44,7 +53,8 @@ h3 {
   margin-bottom: 1rem;
 }
 
-h4, p {
+h4,
+p {
   font-size: 1rem;
   line-height: 1.75rem;
   margin-bottom: 1.75rem;
@@ -66,13 +76,17 @@ h4, p {
     line-height: 2rem;
   }
 
-  h4, p {
+  h4,
+  p {
     font-size: 1.2rem;
     line-height: 2rem;
   }
 }
 
 .textbox-gradient {
-  @apply p-8 rounded-lg shadow-glow-green;
-  background: linear-gradient(251.95deg, #0C4E0F -23.74%, rgba(0, 110, 4, 0) 104.59%);;
+  background: linear-gradient(
+    251.95deg,
+    #0c4e0f -23.74%,
+    rgba(0, 110, 4, 0) 104.59%
+  );
 }

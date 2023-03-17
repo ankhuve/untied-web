@@ -2,226 +2,240 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Hero from "~/components/Hero/Hero";
 import Button from "~/components/common/Button/Button";
-import { CallToAction } from "~/components/CallToAction/CallToAction";
 import Text from "~/components/common/Text/Text";
 
 export default component$(() => {
   return (
     <>
       <Hero>
-        <div className="hero-illustration">
-          <div className="flex flex-col md:w-1/2 2xl:left-56 relative justify-center px-8 sm:px-16 md:mt-16 md:h-full max-w-4xl">
-            <Text tag={"h1"} type={"heading-1"}>
-              All wearable <br /> data in one API
-            </Text>
-            <Text>
-              Build or enhance your health or fitness service by integrating
-              your customers wearable devices. Connect to any wearable device
-              through our single, open-source, easy-to-use API.
-            </Text>
-            <Button
-              glow
-              text="Get access"
-              href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
-              className="mt-8"
-            />
+        <div class="flex flex-col relative justify-center px-8 sm:px-16 md:mt-24 md:h-full w-full max-w-[1536px] mx-auto">
+          <Text tag="h1" type="heading-1">
+            One integration, <br />
+            endless wellness solutions
+          </Text>
+          <Text className="max-w-md">
+            Untied transforms in real-time your users wearable and sensor health
+            data into actionable insights that drive new product features,
+            improved user engagement and higher revenues.
+          </Text>
+          <div class="flex">
+            <CallToAction />
           </div>
         </div>
       </Hero>
-      <div className="container mx-auto px-4 lg:px-16">
-        <HowItWorks />
-        <Features />
-        <WhyUntied />
-        <CallToAction />
+      <div class="container mx-auto px-4 lg:px-16">
+        <BestCustomerExperience />
+        <FutureOfWellness />
+        <ImplementationTimeCTA />
+        <OurMission />
       </div>
     </>
   );
 });
 
-export const HowItWorks = () => {
+export const BestCustomerExperience = () => {
   return (
-    <section className="my-12 lg:my-24 flex flex-col">
-      <h2 className="text-center mb-12 lg:mb-24">How it works</h2>
-      <div className="flex justify-center gap-4 lg:gap-24 mb-32">
-        <div className="justify-center flex flex-col">
-          <img
-            src="/assets/images/step-1.svg"
-            alt="Step 1"
-            width="160"
-            height="346"
-            className="shadow-glow-green rounded-2xl"
-          />
+    <section class="mx-auto max-w-5xl px-4 py-12 sm:py-16 lg:my-24 lg:mt-32">
+      <h2 class="text-center">Create the best customer experience</h2>
+      <p class="mx-auto text-center max-w-2xl">
+        Our data collection and solutions empower you to create and open new
+        possibilities for your customers, to maximize engagement and revenue.
+      </p>
+      <div class="grid gap-16 sm:grid-cols-2 py-24 sm:py-32">
+        <div class="flex justify-center sm:justify-end items-center order-2 sm:order-1">
+          <img src="/assets/images/home/integrations.png" />
         </div>
-        <div className="flex gap-4 md:gap-16 items-center justify-center w-1/2 flex-col md:flex-row">
-          <h3 class="text-heading-2 md:text-heading-1 mb-8 md:mb-0">1.</h3>
-          <div className="space-y-3">
-            <h3>Select your wearable device</h3>
-            <p>
-              In your application, simply display the Untied Widget to your
-              user, allowing them to select their wearable device.
-            </p>
-          </div>
+        <div class="flex flex-col justify-center sm:order-2">
+          <Text type="heading-3" tag="h3" className="text-primary-200">
+            One integration to unify health, fitness and sensor data.
+          </Text>
+          <p class="text-base mb-0">
+            Allow your users to connect and see their health and fitness data
+            via the Untied link.
+          </p>
         </div>
       </div>
-      <div className="flex justify-center space-x-8 lg:space-x-24 mb-32">
-        <div className="flex gap-4 md:gap-16 items-center justify-center w-1/2 flex-col md:flex-row">
-          <h3 className="text-heading-2 md:text-heading-1 mb-8 md:mb-0">2.</h3>
-          <div className="space-y-3">
-            <h3>Authenticate with permissions</h3>
-            <p>
-              The user gets redirected to the wearable’s authentication page,
-              where they enter their credentials and give access access to their
-              wearable data.
-            </p>
-          </div>
+      <div class="grid gap-16 sm:grid-cols-2 py-24 sm:py-32">
+        <div class="flex flex-col justify-center">
+          <Text type="heading-3" tag="h3" className="text-primary-200">
+            Standardized, harmonized and reliable data.
+          </Text>
+          <p class="text-base mb-0">
+            We map device data into standardized formats and harmonize it across
+            wearable devices, so that you can compare metrics regardless of
+            device.
+          </p>
         </div>
-        <div className="flex flex-col md:flex-row gap-2 md:gap-16">
-          <div className="justify-center flex flex-col">
-            <img
-              src="/assets/images/step-2-1.svg"
-              alt="Step 2.1: Authenticate with your wearable device provider"
-              width="160"
-              height="330"
-              className="shadow-glow-green rounded-2xl"
-            />
-          </div>
-          <div className="justify-center flex flex-col">
-            <img
-              src="/assets/images/step-2-2.svg"
-              alt="Step 2.2: Allow the requested permissions"
-              width="160"
-              height="330"
-              className="shadow-glow-green rounded-2xl"
-            />
-          </div>
+        <div class="flex justify-center sm:justify-start items-center">
+          <img src="/assets/images/home/data.png" />
         </div>
       </div>
-      <div className="flex justify-center gap-4 lg:gap-24 mb-32">
-        <div className="justify-center flex flex-col">
-          <img
-            src="/assets/images/step-3.svg"
-            alt="Step 3: Receive the data"
-            width="160"
-            height="346"
-            className="shadow-glow-green rounded-2xl"
-          />
+      <div class="grid gap-16 sm:grid-cols-2 py-24 sm:py-32">
+        <div class="flex justify-center sm:justify-end items-center order-2 sm:order-1">
+          <img src="/assets/images/home/insights.png" />
         </div>
-        <div className="flex gap-4 md:gap-16 items-center justify-center w-1/2 flex-col md:flex-row">
-          <h3 className="text-heading-2 md:text-heading-1 mb-8 md:mb-0">3.</h3>
-          <div className="space-y-3">
-            <h3>You’re in!</h3>
-            <p>
-              When the user has authenticated, your application will receive an
-              API token from Untied, so your business logic can take over and
-              request whatever data your need, in a standardized format.
-            </p>
-          </div>
+        <div class="flex flex-col justify-center sm:order-2">
+          <Text type="heading-3" tag="h3" className="text-primary-200">
+            Real-time insights and recommendations into your business.
+          </Text>
+          <p class="text-base">
+            Our platform optimizes and makes sense of all user data and provides
+            actionable insights through your personalized user dashboard.
+          </p>
+          <p class="text-base font-bold mb-0">(Coming soon)</p>
         </div>
+      </div>
+      <div class="grid gap-16 sm:grid-cols-2 py-24 sm:py-32">
+        <div class="flex flex-col justify-center">
+          <Text type="heading-3" tag="h3" className="text-primary-200">
+            1-click implementation of new features.
+          </Text>
+          <p class="text-base">
+            Well, maybe not with just one click, but we offer plug & play
+            features such as sleep analysis and heart rate variability analysis
+            ready to be implemented directly into your app or service.
+          </p>
+          <p class="text-base font-bold mb-0">(Coming soon)</p>
+        </div>
+        <div class="flex justify-center sm:justify-start items-center">
+          <img src="/assets/images/home/modules.png" />
+        </div>
+      </div>
+      <div class="pb-8">
+        <CallToAction />
       </div>
     </section>
   );
 };
 
-export const Features = () => {
+export const FutureOfWellness = () => {
   return (
-    <section className="my-12 lg:my-24 flex flex-col">
-      <h2 className="text-center mb-12 lg:mb-24">Features</h2>
-      <div className="flex justify-center lg:space-x-12 xl:space-x-24 flex-col-reverse lg:flex-row">
-        <div className="flex flex-col lg:w-1/2 space-y-12">
-          <div>
-            <h3 className="mb-3">Open source, self-hostable</h3>
-            <p>
-              We understand the importance of transparency and being in charge
-              of your own data.
-            </p>
-          </div>
-          <div>
-            <h3 className="mb-3">Integrate with ease</h3>
-            <p>
-              Support any wearable, and get it done by the end of the day - easy
-              peasy.
-            </p>
-          </div>
-          <div>
-            <h3 className="mb-3">Connect and forget</h3>
-            <p>
-              Spend your time where it matters, we’ll take good care of your
-              integrations.
-            </p>
-          </div>
-          <div>
-            <h3 className="mb-3">Standardized data types</h3>
-            <p>
-              We map device data into standardized formats, so you know what you
-              get.
-            </p>
-          </div>
+    <section class="my-12 lg:my-24 flex flex-col">
+      <h2 class="text-center">Build the future of wellness.</h2>
+      <p class="text-center max-w-4xl mx-auto">
+        We believe that you should be in control of your own product. That’s why
+        we offer two different ways to integrate Untied into your product. You
+        can host Untied yourself using our open source software, or let Untied
+        provide a complete solution for you.
+      </p>
+      <div class="py-16 mx-auto max-w-4xl grid grid-cols-1 gap-x-16 gap-y-8 sm:grid-cols-2">
+        <div class="textbox-gradient p-8 rounded-xl">
+          <Text tag="h4" className="text-2xl font-bold mb-2">
+            All wearables and sensors.
+          </Text>
+          <p class="text-base mb-0">
+            Support any wearable and sensor with our seamless experience.
+          </p>
         </div>
-        <div className="w-full lg:w-1/2 mb-8 md:mb-0 justify-center flex">
-          <img
-            src="/assets/images/one-api.svg"
-            alt="Illustration of various wearable providers being connected to your applications through a single API."
-            width="656"
-            height="512"
-          />
+        <div class="textbox-gradient p-8 rounded-xl">
+          <Text tag="h4" className="text-2xl font-bold mb-2">
+            Security you can trust.
+          </Text>
+          <p class="text-base mb-0">
+            We take your security very seriously and that's why we anonymize all
+            data by default.
+          </p>
+        </div>
+        <div class="textbox-gradient p-8 rounded-xl">
+          <Text tag="h4" className="text-2xl font-bold mb-2">
+            Open source, self-hostable.
+          </Text>
+          <p class="text-base mb-0">
+            We understand the importance of transparency and being in charge of
+            your own data.
+          </p>
+        </div>
+        <div class="textbox-gradient p-8 rounded-xl">
+          <Text tag="h4" className="text-2xl font-bold mb-2">
+            For compaines of any size.
+          </Text>
+          <p class="text-base mb-0">
+            Our platform serves startups, scaleups and large enterprises alike,
+            providing custom solutions and tools.
+          </p>
+        </div>
+        <div class="textbox-gradient p-8 rounded-xl">
+          <Text tag="h4" className="text-2xl font-bold mb-2">
+            Loved by developers.
+          </Text>
+          <p class="text-base mb-0">
+            We give developers the tools they need to build the best
+            applications possible.
+          </p>
+        </div>
+        <div class="textbox-gradient p-8 rounded-xl">
+          <Text tag="h4" className="text-2xl font-bold mb-2">
+            Seamless user experience.
+          </Text>
+          <p class="text-base mb-0">
+            Our widget module streamlines your onboarding experience to help
+            users connect their wearables and sensors.
+          </p>
         </div>
       </div>
     </section>
   );
 };
-
-export const WhyUntied = () => {
+export const ImplementationTimeCTA = () => {
   return (
-    <section className="my-12 lg:my-24 flex flex-col">
-      <h2 className="text-center mb-12 lg:mb-24">Why Untied?</h2>
-      <div className="flex justify-center lg:space-x-12 xl:space-x-24 flex-col lg:flex-row">
-        <div className="flex flex-col lg:w-1/2 space-y-12">
-          <div className="textbox-gradient">
-            <h3 className="mb-3">It’s open source software</h3>
-            <Text type={"base"}>
-              Whether you want to host Untied by yourself, or want us to just
-              solve it for you - there’s a solution for you.
-            </Text>
-            <Text noMargin>
-              Untied is open source software (OSS), which means our source code
-              is public and open for anyone to contribute to. Hosting it on the
-              server of your choice is easy, you’re even free to modify the
-              source code to fit your specific needs.
-            </Text>
+    <section class="my-12 lg:my-24 flex-col max-w-6xl mx-auto">
+      <hr class="mb-8" />
+      <div class="flex flex-col gap-x-4 md:flex-row sm:items-center justify-between px-8">
+        <Text
+          tag="h2"
+          type="heading-2"
+          className="m-0 w-full md:w-8/12 mb-8 md:m-0 text-center md:text-left"
+        >
+          Implementation just went from months to hours.
+        </Text>
+        <div class="md:4/12 mx-auto">
+          <div class="flex justify-end">
+            <Button
+              text="Get started"
+              className="!px-12"
+              href={"https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"}
+            />
           </div>
-          <div className="textbox-gradient">
-            <h3 className="mb-3">Privacy centered architecture</h3>
-            <Text type={"base"}>
-              We have designed Untied from the ground up with privacy and data
-              security at the center of every architectural decision. We only
-              store the data that is necessary to make Untied work, and we don’t
-              share it with anyone.
-            </Text>
-            <Text noMargin>
-              Since our software is open source, you can read all of our source
-              code and verify that we’re not doing anything shady. Our community
-              is also free to contribute to the source code, and we welcome
-              everyone to do so.
-            </Text>
-          </div>
-        </div>
-        <div className="w-full lg:w-1/2 mb-8 md:mb-0 justify-center flex">
-          <img
-            className="right-6 relative"
-            src="/assets/images/funnel.svg"
-            alt="Illustration of different wearable providers being connected to your applications through a single API."
-            width="656"
-            height="946"
-          />
         </div>
       </div>
+      <hr class="mt-8" />
     </section>
+  );
+};
+
+export const OurMission = () => {
+  return (
+    <section class="my-12 lg:my-24 flex-col max-w-xl mx-auto pt-12">
+      <Text type="heading-1" tag="h2" center>
+        We're on a mission.
+      </Text>
+      <p class="text-center">
+        We want to make wellness personal and tailored to every individual
+        person. A key step in getting there is simplifying access and making
+        sense of wearable health data.
+      </p>
+      <div class="py-8">
+        <CallToAction />
+      </div>
+    </section>
+  );
+};
+
+export const CallToAction = () => {
+  return (
+    <div class="flex justify-center">
+      <Button
+        text="Get started"
+        className="!px-16 !py-6"
+        href={"https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"}
+      />
+    </div>
   );
 };
 
 // sets the title and meta properties of the page
 export const head: DocumentHead = {
-  title: "One API, all wearable devices - Untied",
+  title: "One integration, endless wellness solutions -  Untied",
   meta: [
     {
       name: "description",

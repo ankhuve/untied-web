@@ -9,25 +9,32 @@ export default component$(() => {
   useStylesScoped$(styles);
 
   return (
-    <header class="flex px-6 py-4 md:px-16 justify-between items-center absolute w-full">
-      <Link href="/" className="flex">
+    <header class="flex px-6 py-4 md:px-16 md:py-8 justify-between items-center absolute w-full">
+      <Link href="/" class="flex">
         <div class="mr-4">
           <UntiedLogo />
         </div>
-        <h1 className="text-2xl m-0">Untied</h1>
+        <h1 class="hidden sm:block text-2xl m-0">Untied</h1>
       </Link>
       <ul class="flex items-center text-right gap-2 lg:gap-4">
-        <li class="select-none opacity-50 hidden sm:block">
-          Docs (coming soon)
+        <li>
+          <Link
+            class="p-2 md:p-4 lg:px-6"
+            href="https://docs.untied.world"
+            target="_blank"
+            aria-label={"Developer documentation"}
+          >
+            Docs
+          </Link>
         </li>
         <li>
-          <Link href="/about" className="p-2 md:p-4">
-            About
+          <Link href="/team" class="p-2 md:p-4 lg:px-6">
+            Team
           </Link>
         </li>
         <li>
           <Link
-            className="p-2 md:p-4"
+            class="p-2 md:p-4 lg:px-6"
             href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
             target="_blank"
           >
@@ -38,15 +45,16 @@ export default component$(() => {
           <Link
             href="https://github.com/untiedworld"
             target="_blank"
-            className="px-4"
+            class="block p-2 md:p-4 lg:px-6"
             aria-label={"Github"}
           >
-            <GithubIcon />
+            <GithubIcon size={32} />
           </Link>
         </li>
         <li class="pl-4 hidden sm:block">
           <Button
-            text="Get access"
+            className="!py-6 !px-6"
+            text="Get started"
             href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
           />
         </li>

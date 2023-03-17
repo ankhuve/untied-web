@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
       colors: {
@@ -34,10 +34,8 @@ module.exports = {
         },
       },
       backgroundImage: {
-        "hero-illustration-desktop": "url('/assets/images/hero.svg')",
-        "hero-illustration-mobile": "url('/assets/images/hero-mobile.svg')",
         "hero-gradient":
-          "linear-gradient(135.33deg, #030503 26.49%, #126203 76.79%)",
+          "linear-gradient(135.33deg, #000000 0%, #030503 15%, #126203 100%)",
       },
       backgroundSize: {
         auto: "auto",
