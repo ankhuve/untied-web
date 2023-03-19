@@ -9,7 +9,7 @@ export default component$(() => {
   return (
     <>
       <Hero className="!h-fit">
-        <div class="flex flex-col justify-center pt-64 py-24 px-8 mx-auto container">
+        <div class="flex flex-col justify-center py-24 md:pt-64 px-8 mx-auto container">
           <Text tag="h1" type="heading-1" className="text-center">
             Meet the Untied team
           </Text>
