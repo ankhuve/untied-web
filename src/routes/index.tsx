@@ -43,7 +43,10 @@ export const BestCustomerExperience = () => {
       </p>
       <div class="grid gap-16 sm:grid-cols-2 py-24 sm:py-32">
         <div class="flex justify-center sm:justify-end items-center order-2 sm:order-1">
-          <img src="/assets/images/home/integrations.png" />
+          <img
+            src="/assets/images/home/integrations.png"
+            alt="Integrations provided by Untied"
+          />
         </div>
         <div class="flex flex-col justify-center sm:order-2">
           <Text type="heading-3" tag="h3" className="text-primary-200">
@@ -67,12 +70,18 @@ export const BestCustomerExperience = () => {
           </p>
         </div>
         <div class="flex justify-center sm:justify-start items-center">
-          <img src="/assets/images/home/data.png" />
+          <img
+            src="/assets/images/home/data.png"
+            alt="Diagram of data types provided by Untied"
+          />
         </div>
       </div>
       <div class="grid gap-16 sm:grid-cols-2 py-24 sm:py-32">
         <div class="flex justify-center sm:justify-end items-center order-2 sm:order-1">
-          <img src="/assets/images/home/insights.png" />
+          <img
+            src="/assets/images/home/insights.png"
+            alt="Two arrows pointing in different directions"
+          />
         </div>
         <div class="flex flex-col justify-center sm:order-2">
           <Text type="heading-3" tag="h3" className="text-primary-200">
@@ -98,7 +107,10 @@ export const BestCustomerExperience = () => {
           <p class="text-base font-bold mb-0">(Coming soon)</p>
         </div>
         <div class="flex justify-center sm:justify-start items-center">
-          <img src="/assets/images/home/modules.png" />
+          <img
+            src="/assets/images/home/modules.png"
+            alt="Examples of modules provided by Untied"
+          />
         </div>
       </div>
       <div class="pb-8">
