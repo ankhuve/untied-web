@@ -159,7 +159,7 @@ export const FutureOfWellness = () => {
         </div>
         <div class="textbox-gradient p-8 rounded-xl">
           <Text tag="h4" className="text-2xl font-bold mb-2">
-            For compaines of any size.
+            For companies of any size.
           </Text>
           <p class="text-base mb-0">
             Our platform serves startups, scaleups and large enterprises alike,
