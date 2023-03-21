@@ -16,7 +16,7 @@ export default component$(() => {
           <Text className="max-w-md">
             Untied transforms in real-time your users wearable and sensor health
             data into actionable insights that drive new product features,
-            improve user engagement and higher revenues.
+            improve user engagement and generate higher revenues.
           </Text>
           <div class="flex">
             <CallToAction />
