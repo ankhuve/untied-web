@@ -35,7 +35,7 @@ export default component$(() => {
         <li>
           <Link
             class="p-2 md:p-4 lg:px-6"
-            href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
+            href="https://dtyl3ii63lk.typeform.com/to/KA75GQKQ"
             target="_blank"
           >
             Contact

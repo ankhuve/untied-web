@@ -47,7 +47,7 @@ export default component$(() => {
             </li>
             <li>
               <Link
-                href="https://dtyl3ii63lk.typeform.com/to/gOYi2LoS"
+                href="https://dtyl3ii63lk.typeform.com/to/KA75GQKQ"
                 target="_blank"
               >
                 Contact
