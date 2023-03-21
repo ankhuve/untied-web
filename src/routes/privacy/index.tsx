@@ -83,7 +83,7 @@ export default component$(() => {
         </li>
         <li>
           <Text noMargin>
-            <b>“Website”</b> refers to Untied, accessible from
+            <b>“Website”</b> refers to Untied, accessible from{" "}
             <a href="https://www.untied.world">https://www.untied.world</a>
           </Text>
         </li>
