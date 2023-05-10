@@ -6,7 +6,7 @@ export default component$(() => {
   return (
     <section class="container mx-auto max-w-3xl px-8 pt-24 lg:pt-32">
       <Text tag="h1">Privacy Policy</Text>
-      <Text>Last updated: March 8, 2023</Text>
+      <Text>Last updated: May 9, 2023</Text>
       <Text>
         This privacy policy (“Privacy Policy”) describes Our policies and
         procedures on the collection, use and disclosure of Your information
@@ -99,18 +99,10 @@ export default component$(() => {
       <Text tag="h3">Types of Data Collected</Text>
       <Text tag="h4">Personal Data</Text>
       <Text>
-        While using Our Services, We may ask You to provide Us with certain
-        personally identifiable information that can be used to contact or
-        identify You. Personally identifiable information may include, but is
-        not limited to:
+        During the use of our services, we may request that you provide us with
+        certain personal information. Such personal information may include:
       </Text>
       <ul class="list-disc mb-8">
-        <li>
-          <Text noMargin>Email address</Text>
-        </li>
-        <li>
-          <Text noMargin>First name and last name</Text>
-        </li>
         <li>
           <Text noMargin>Usage Data</Text>
         </li>
@@ -118,6 +110,10 @@ export default component$(() => {
           <Text noMargin>Health and fitness data</Text>
         </li>
       </ul>
+      <Text>
+        Please note that all personal information provided to us is stored in an
+        anonymized format to protect your privacy.
+      </Text>
       <Text tag="h4">Usage Data</Text>
       <Text>
         Usage Data is collected automatically when using the Services.
@@ -291,7 +287,11 @@ export default component$(() => {
         laws. Our international transfers of Personal Data are based on the EU
         Commission&apos;s standard contractual clauses.
       </Text>
-
+      <Text>
+        Currently, we are not processing data outside the EU/EES and the data is
+        stored at servers in Stockholm, Sweden. Upon Your request, we can store
+        data in specific EU countries.
+      </Text>
       <Text tag="h3">Your Rights</Text>
       <Text>
         You are entitled to the following rights under applicable data
