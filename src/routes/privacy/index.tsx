@@ -6,7 +6,7 @@ export default component$(() => {
   return (
     <section class="container mx-auto max-w-3xl px-8 pt-24 lg:pt-32">
       <Text tag="h1">Privacy Policy</Text>
-      <Text>Last updated: May 9, 2023</Text>
+      <Text>Last updated: May 12, 2023</Text>
       <Text>
         This privacy policy (“Privacy Policy”) describes Our policies and
         procedures on the collection, use and disclosure of Your information
@@ -99,8 +99,8 @@ export default component$(() => {
       <Text tag="h3">Types of Data Collected</Text>
       <Text tag="h4">Personal Data</Text>
       <Text>
-        During the use of our services, we may request that you provide us with
-        certain personal information. Such personal information may include:
+        While using Our Service, We may collect personal information, which can
+        include:
       </Text>
       <ul class="list-disc mb-8">
         <li>
@@ -111,8 +111,8 @@ export default component$(() => {
         </li>
       </ul>
       <Text>
-        Please note that all personal information provided to us is stored in an
-        anonymized format to protect your privacy.
+        Please note that all personal information provided to Us is stored in an
+        anonymized format to protect Your privacy.
       </Text>
       <Text tag="h4">Usage Data</Text>
       <Text>
@@ -288,9 +288,8 @@ export default component$(() => {
         Commission&apos;s standard contractual clauses.
       </Text>
       <Text>
-        Currently, we are not processing data outside the EU/EES and the data is
-        stored at servers in Stockholm, Sweden. Upon Your request, we can store
-        data in specific EU countries.
+        To protect Your data, We do not store or process any data outside of Our
+        server located in Stockholm, Sweden.
       </Text>
       <Text tag="h3">Your Rights</Text>
       <Text>
