@@ -54,17 +54,6 @@ export default component$(() => {
             </div>
             <div class="text-center">
               <img
-                src="/assets/images/team/daniel.png"
-                alt="Daniel"
-                width={128}
-                height={128}
-                class="rounded-full h-32 w-32 mx-auto mb-4"
-              />
-              <Text className="text-lg font-bold mb-0">Daniel Hellquist</Text>
-              <Text>Sales</Text>
-            </div>
-            <div class="text-center">
-              <img
                 src="/assets/images/team/wille.png"
                 alt="Wilhelm"
                 width={128}
@@ -82,7 +71,7 @@ export default component$(() => {
                 height={128}
                 class="rounded-full h-32 w-32 mx-auto mb-4"
               />
-              <Text className="text-lg font-bold mb-0">You</Text>
+              <Text className="text-lg font-bold mb-0">You?</Text>
               <Link
                 href="https://dtyl3ii63lk.typeform.com/to/WQkcPqZx"
                 target="_blank"
