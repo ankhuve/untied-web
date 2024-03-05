@@ -26,8 +26,8 @@ export default component$(() => {
           Untied has been acquired by Closar AI, to accelerate its goal of
           creating the ultimate doctor co-pilot. By leveraging wearable health
           and wellness data, Closar AI provides AI-powered recommendations and
-          enables medical professionals to act on wearable health insights. More
-          information can be found here
+          enables medical professionals to act on wearable health insights.{" "}
+          <a href="https://closar.ai/">More information can be found here</a>
         </p>
       </div>
     </div>
